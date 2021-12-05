@@ -14,15 +14,15 @@ font-family: 'Karla', sans-serif;
 font-family: 'Lato', sans-serif;
 */
 
-h1{
+h1 {
   font-size: 3rem;
   padding-left: 2em;
   margin-top: 1em;
   line-height: 1.25em;
   margin-bottom: -1em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
-  color: #fff
+  color: #fff;
 }
 
 /* flex grid styles */
@@ -39,7 +39,6 @@ h1{
   row-gap: 5em;
   margin-top: 6vh;
   padding: 1em;
-  
 }
 
 .col {
@@ -47,7 +46,7 @@ h1{
   min-height: 40vh;
   max-height: 40vh;
   width: 92.5%;
-  filter: drop-shadow(0 .75em 1.5em #33333380);
+  filter: drop-shadow(0 0.75em 1.5em #33333380);
   justify-self: center;
   align-self: center;
   border-radius: 20px;
@@ -58,10 +57,10 @@ h1{
 .col a {
   background-color: #fff;
   border-radius: 20px;
-  padding: .75em 1.25em;
-  font-family: 'Karla', sans-serif;
+  padding: 0.75em 1.25em;
+  font-family: "Karla", sans-serif;
   color: #333;
-  text-decoration:none
+  text-decoration: none;
 }
 
 h2.sayings {
@@ -75,35 +74,31 @@ h2.sayings {
   filter: drop-shadow(0 5px 8px #33333380);
 }
 
-h2.sayings:before
-{
-content: '\201C';
+h2.sayings:before {
+  content: "\201C";
 }
 
-h2.sayings:after
-{
-content: '\201D';
+h2.sayings:after {
+  content: "\201D";
 }
 
-.hover{
-  filter: drop-shadow(0 .75em 1.5em #333333);
+.hover {
+  filter: drop-shadow(0 0.75em 1.5em #333333);
 }
 
-.photo img{
+.photo img {
   max-height: 25vh;
   overflow: hidden;
   border-radius: 20px;
   object-fit: cover;
-  
 }
-
 
 .quote-one {
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s!important;
+  transition: all 2.5s !important;
   background-blend-mode: multiply;
 }
 .quote-two {
@@ -111,7 +106,7 @@ content: '\201D';
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s!important;
+  transition: all 2.5s !important;
   background-blend-mode: multiply;
 }
 .quote-three {
@@ -119,7 +114,7 @@ content: '\201D';
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s!important;
+  transition: all 2.5s !important;
   background-blend-mode: multiply;
 }
 .quote-four {
@@ -127,7 +122,7 @@ content: '\201D';
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s!important;
+  transition: all 2.5s !important;
   background-blend-mode: multiply;
 }
 .quote-five {
@@ -135,7 +130,7 @@ content: '\201D';
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s!important;
+  transition: all 2.5s !important;
   background-blend-mode: multiply;
 }
 .quote-six {
@@ -143,7 +138,7 @@ content: '\201D';
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s!important;
+  transition: all 2.5s !important;
   background-blend-mode: multiply;
 }
 
@@ -158,51 +153,51 @@ content: '\201D';
   bottom: 0;
 }
 
-.quote-one:hover{
+.quote-one:hover {
   filter: grayscale(0);
-  background-blend-mode:normal;
-  transition: all 2.5s!important;
+  background-blend-mode: normal;
+  transition: all 2.5s !important;
   filter: drop-shadow(0 2px 8px #33333360);
 }
-.quote-two:hover{
+.quote-two:hover {
   filter: grayscale(0);
-  background-blend-mode:normal;
-  transition: all 2.5s!important;
+  background-blend-mode: normal;
+  transition: all 2.5s !important;
   filter: drop-shadow(0 2px 8px #33333360);
 }
-.quote-three:hover{
+.quote-three:hover {
   filter: grayscale(0);
-  background-blend-mode:normal;
-  transition: all 2.5s!important;
+  background-blend-mode: normal;
+  transition: all 2.5s !important;
   filter: drop-shadow(0 2px 8px #33333360);
 }
-.quote-four:hover{
+.quote-four:hover {
   filter: grayscale(0);
-  background-blend-mode:normal;
-  transition: all 2.5s!important;
+  background-blend-mode: normal;
+  transition: all 2.5s !important;
   filter: drop-shadow(0 2px 8px #33333360);
 }
-.quote-five:hover{
+.quote-five:hover {
   filter: grayscale(0);
-  background-blend-mode:normal;
-  transition: all 2.5s!important;
+  background-blend-mode: normal;
+  transition: all 2.5s !important;
   filter: drop-shadow(0 2px 8px #33333360);
 }
-.quote-six:hover{
+.quote-six:hover {
   filter: grayscale(0);
-  background-blend-mode:normal;
-  transition: all 2.5s!important;
+  background-blend-mode: normal;
+  transition: all 2.5s !important;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 
-
-p.date, p.topic {
+p.date,
+p.topic {
   width: 100%;
   text-align: center;
   line-height: 1.5em;
   margin: 0;
-  font-family: 'Karla', sans-serif;
-  color: #fff;  
+  font-family: "Karla", sans-serif;
+  color: #fff;
   filter: drop-shadow(0 2px 4px #33333380);
 }
 .topic {
@@ -213,35 +208,36 @@ p.date, p.topic {
 }
 .date {
   order: 1;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 500;
 }
 
 /* media */
-@media only screen and (max-width: 600px) {
-    .flex-grid {
-      display: grid;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-basis: auto;
-      grid-template-columns: repeat(1, 1fr);
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      column-gap: 1em;
-      row-gap: 2em;
-      margin-top: 20vh;
-      padding: 1em;
-      }
-      .date, .topic{
-        padding-top: 3vh
-      }
-      h2.sayings{
-        font-size: 1.35rem;
-      }
+@media only screen and (max-width: 768px) {
+  .flex-grid {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 1em;
+    row-gap: 2em;
+    margin-top: 20vh;
+    padding: 1em;
+  }
+  .date,
+  .topic {
+    padding-top: 3vh;
+  }
+  h2.sayings {
+    font-size: 1.35rem;
+  }
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
   .flex-grid {
     display: grid;
     justify-content: center;
@@ -255,5 +251,5 @@ p.date, p.topic {
     row-gap: 2em;
     margin-top: 20vh;
     padding: 1em;
-    }
+  }
 }
