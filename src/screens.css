@@ -1,5 +1,6 @@
 /* media */
 @media only screen and (min-width: 1401px) {
+  
     .flex-grid {
       display: grid;
       justify-content: center;
@@ -10,11 +11,11 @@
       margin-left: auto;
       margin-right: auto;
       column-gap: 1em;
-      row-gap: 5em;
+      row-gap: 3em;
       margin-top: 6vh;
       padding: 1em;
       transition: all ease-in-out .85s;
-      
+    
     }
   }
   
@@ -39,27 +40,28 @@
       padding-top: 3vh;
     }
     h2.sayings {
-      font-size: 3rem!important;
-    }
-    p.topic{
       font-size: 2.5rem!important;
     }
+    p.topic{
+      font-size: 2.25rem!important;
+    }
     p.date{
-      font-size: 2rem!important;
-      margin-top: -1em;
+      font-size: 1.5rem!important;
+      margin-top: -2.15em;
     }
     h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       padding-left: 2em;
       margin-top: 1em;
       line-height: 1.25em;
-      margin-bottom: -1.25em;
+      margin-bottom: -.75em;
       font-family: "Inter", sans-serif;
       font-weight: 800;
       color: #fff;
+      height: 4vh;
     }
     .col a {
-      font-size: 1.25rem;
+      font-size:calc(16px + 1.5vw);
     }
   }
 
