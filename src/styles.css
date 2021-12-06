@@ -27,7 +27,6 @@ h1 {
 
 /* flex grid styles */
 
-
 .col {
   flex: 1;
   min-height: 40vh;
