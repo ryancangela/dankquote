@@ -133,10 +133,10 @@ body::-webkit-scrollbar-thumb:hover {
 .modal-content {
   min-height: min-content;
   background-image: linear-gradient(rgb(17, 17, 17), #000);
-  margin: 5vh auto;
+  margin: 0 auto;
   filter: drop-shadow(0 5px 10px #33333350);
-  width: 95%;
-  height: 90vh;
+  width: 100%;
+  height: 100vh;
   border-radius: 10px;
 }
 
@@ -233,7 +233,7 @@ p.modal-topic {
   width: 87.5%;
   padding: 0 2em;
   margin: .75vh 0 0 2rem;
-  min-height: 60vh;
+  min-height: 65vh;
   background-image: linear-gradient(rgb(17, 17, 17), #000);
 }
 .story-content p{
