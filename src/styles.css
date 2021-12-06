@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgb(17, 17, 17), #000);
-  transition: all 2.5s;
+  transition: all ease-in-out .85s;
 }
 
 /*  fonts
@@ -30,7 +30,8 @@ h1 {
 
 .col {
   flex: 1;
-  min-height: 40vh;
+  min-height: calc(100vh - 70vh);
+  height: max-content;
   max-height: 40vh;
   width: 92.5%;
   filter: drop-shadow(0 0.75em 1.5em #33333380);
@@ -39,6 +40,7 @@ h1 {
   border-radius: 20px;
   overflow: hidden;
   background-color: #333;
+  padding: 1em;
 }
 
 .col a {
@@ -52,7 +54,7 @@ h1 {
 }
 
 h2.sayings {
-  font-size: 1.65rem;
+  font-size: 1.45rem;
   line-height: 1.5em;
   padding: 0 2em 0 2em;
   display: block;
@@ -86,7 +88,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s;
+  transition: all ease-in-out 1s;
   background-blend-mode: multiply;
 }
 .quote-two {
@@ -94,7 +96,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s;
+  transition: all ease-in-out 1s;
   background-blend-mode: multiply;
 }
 .quote-three {
@@ -102,7 +104,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s;
+  transition: all ease-in-out 1s;
   background-blend-mode: multiply;
 }
 .quote-four {
@@ -110,7 +112,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s;
+  transition: all ease-in-out 1s;
   background-blend-mode: multiply;
 }
 .quote-five {
@@ -118,7 +120,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s;
+  transition: all ease-in-out 1s;
   background-blend-mode: multiply;
 }
 .quote-six {
@@ -126,7 +128,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s;
+  transition: all ease-in-out 1s;
   background-blend-mode: multiply;
 }
 
@@ -144,42 +146,42 @@ h2.sayings:after {
 .quote-one:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
 }
 .quote-two:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
 }
 .quote-three:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
 }
 .quote-four:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_four-drk.jpg");
 }
 .quote-five:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-six-drk.jpg");
 }
 .quote-six:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s;
+  transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five-drk.jpg");
 }
@@ -198,7 +200,7 @@ p.topic {
   order: 0;
   font-size: 1.5em;
   font-weight: 800;
-  padding-top: 10vh;
+  padding-top: 2em;
 }
 .date {
   order: 1;
