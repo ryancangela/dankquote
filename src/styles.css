@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgb(17, 17, 17), #000);
+  transition: all 2.5s;
 }
 
 /*  fonts
@@ -23,6 +24,7 @@ h1 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
   color: #fff;
+  transition: all 2.5s;
 }
 
 /* flex grid styles */
@@ -59,6 +61,7 @@ h2.sayings {
   color: #fff;
   margin: 1em 0 1.5em 0;
   filter: drop-shadow(0 5px 8px #33333380);
+  transition: all 2.5s;
 }
 
 h2.sayings:before {
@@ -85,7 +88,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   background-blend-mode: multiply;
 }
 .quote-two {
@@ -93,7 +96,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   background-blend-mode: multiply;
 }
 .quote-three {
@@ -101,7 +104,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   background-blend-mode: multiply;
 }
 .quote-four {
@@ -109,7 +112,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   background-blend-mode: multiply;
 }
 .quote-five {
@@ -117,7 +120,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   background-blend-mode: multiply;
 }
 .quote-six {
@@ -125,7 +128,7 @@ h2.sayings:after {
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   background-blend-mode: multiply;
 }
 
@@ -143,37 +146,37 @@ h2.sayings:after {
 .quote-one:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 .quote-two:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 .quote-three:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 .quote-four:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 .quote-five:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 .quote-six:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
-  transition: all 2.5s !important;
+  transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
 }
 
