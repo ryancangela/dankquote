@@ -347,12 +347,12 @@ p.modal-topic {
 
 /* Modal Content/Box */
 .modal-content {
-  min-height: min-content;
+  min-height: 50vh;
   background-image: linear-gradient(rgb(17, 17, 17), #000);
   margin: 15vh auto;
   filter: drop-shadow(0 5px 10px #33333350);
   width: 85%;
-  height: 65vh;
+  height: min-content;
   border-radius: 10px;
 }
 

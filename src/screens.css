@@ -86,7 +86,7 @@ body::-webkit-scrollbar-thumb:hover {
       font-size: 2.5rem!important;
     }
     p.topic{
-      font-size: 2.25rem!important;
+      font-size: 2.65rem!important;
     }
     p.date{
       font-size: 1.5rem!important;
@@ -103,10 +103,18 @@ body::-webkit-scrollbar-thumb:hover {
       color: #fff;
       height: 4vh;
     }
-    .col a {
-      font-size:calc(16px + 1.5vw);
-    }
 
+    .col button {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 0.75em 1.25em;
+      font-family: "Karla", sans-serif;
+      color: #333;
+      font-size:calc(16px + 1.5vw);
+      text-decoration: none;
+      border: 1px solid #fff;
+    }
+    
   /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -128,7 +136,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 5vh auto;
   filter: drop-shadow(0 5px 10px #33333350);
   width: 95%;
-  height: 95vh;
+  height: 90vh;
   border-radius: 10px;
 }
 
@@ -165,8 +173,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 .modal-col {
   flex: 1;
-  height: auto;
-  min-height: 30vh;
+  height: 30vh;
+  min-height: 25vh;
   width: 100%;
   filter: drop-shadow(0 0.75em 1.5em #33333380);
   justify-self: center;
@@ -183,6 +191,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px 0 0 10px;
+  
 }
 
 h2.modal-sayings {
@@ -224,6 +233,8 @@ p.modal-topic {
   width: 87.5%;
   padding: 0 2em;
   margin: .75vh 0 0 2rem;
+  min-height: 60vh;
+  background-image: linear-gradient(rgb(17, 17, 17), #000);
 }
 .story-content p{
   font-size: 2rem;
