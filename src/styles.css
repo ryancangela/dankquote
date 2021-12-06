@@ -47,7 +47,7 @@ h1 {
   padding: 0.75em 1.25em;
   font-family: "Karla", sans-serif;
   color: #333;
-  font-size: 2rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -276,5 +276,15 @@ p.topic {
   }
   p.date{
     font-size: 2rem!important;
+  }
+  h1 {
+    font-size: 5rem;
+    padding-left: 2em;
+    margin-top: 1em;
+    line-height: 1.25em;
+    margin-bottom: -1.25em;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: #fff;
   }
 }
