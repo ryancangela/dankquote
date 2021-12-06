@@ -6,12 +6,11 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgb(17, 17, 17), #000);
-  transition: all ease-in-out .85s;
+  transition: all ease-in-out 0.85s;
 }
-.section-hero{
+.section-hero {
   min-height: 110vh;
 }
-
 
 /*  fonts
 font-family: 'Inter', sans-serif;
@@ -60,7 +59,7 @@ h1 {
 
 .col button:hover {
   transform: scale(1.05);
-  transition: all .15s;
+  transition: all 0.15s;
 }
 
 h2.sayings {
@@ -261,8 +260,6 @@ h2.modal-sayings:after {
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-seven-drk.jpg");
 }
 
-
-
 p.date,
 p.topic {
   width: 100%;
@@ -305,18 +302,18 @@ p.modal-topic {
   /*margin: .75vh 0 0 2rem;*/
 }
 
-.story-content{
+.story-content {
   overflow-y: scroll;
   overflow-x: hidden;
   max-height: 95%;
   width: 87.5%;
   padding: 0 2em;
-  margin: .75vh 0 0 2rem;
+  margin: 0.75vh 0 0 2rem;
 }
-.story-content p{
+.story-content p {
   color: #fff;
   text-align: left;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 .footer p {
@@ -330,7 +327,6 @@ p.modal-topic {
   margin-right: auto;
 }
 
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -341,8 +337,8 @@ p.modal-topic {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -357,7 +353,8 @@ p.modal-topic {
 }
 
 /* The close-one Button */
-.close-one, .close-two {
+.close-one,
+.close-two, .close-three {
   color: #fff;
   float: right;
   font-size: 28px;
@@ -376,6 +373,12 @@ p.modal-topic {
   text-decoration: none;
   cursor: pointer;
 }
+.close-three:hover,
+.close-three:focus {
+  color: #ffffff60;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .modal-grid {
   display: grid;
@@ -386,7 +389,6 @@ p.modal-topic {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .modal-col {
@@ -398,7 +400,7 @@ p.modal-topic {
   align-self: center;
 }
 
-.story-one{
+.story-one {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
@@ -409,7 +411,7 @@ p.modal-topic {
   border-radius: 10px 0 0 10px;
   background-position: center;
 }
-.story-two{
+.story-two {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
@@ -420,8 +422,58 @@ p.modal-topic {
   border-radius: 10px 0 0 10px;
   background-position: center;
 }
-.source{
+.story-three {
+  filter: grayscale(0);
+  background-blend-mode: normal;
+  transition: all ease-in-out 1.5s;
+  filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+  background-position: center;
+}
+.source {
   color: #fff;
   float: left;
   font-size: 1rem;
+}
+
+[id^="modal"] {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  animation:fadein .75s;
+}
+input[type="checkbox"] {
+  position: absolute;
+  clip: rect(0 0 0 0);
+}
+#modal1:target {
+  display: block;
+}
+#modal2:target {
+  display: block;
+}
+#modal3:target {
+  display: block;
+}
+[id^="modal"] a {
+  float: right;
+}
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
 }
