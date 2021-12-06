@@ -240,6 +240,10 @@ p.modal-topic {
   font-size: 2rem;
   padding: 1em 0;
 }
-
+.source{
+  color: #fff;
+  float: left;
+  font-size: calc(16px + 1.5vw);
+}
 
 }

@@ -403,3 +403,8 @@ p.modal-topic {
   background-size: cover;
   border-radius: 10px 0 0 10px;
 }
+.source{
+  color: #fff;
+  float: left;
+  font-size: 1rem;
+}
