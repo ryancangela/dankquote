@@ -4,7 +4,7 @@
     <title>Donald Says</title>
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/screens.css" />
-    <script type="text/javascript" src="src/modal.js"></script>
+    <script type="text/javascript" src="src/modalone.js"></script>
     <!--<link rel="stylesheet" href="global.css">-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +32,7 @@
             I think if this country gets any kinder or gentler, it's literally
             going to cease to exist.
           </h2>
-          <button id="button-one">More about Domestic Policy</button>
+          <button onclick="doFunction()" id="button-one">More about Domestic Policy</button>
         </div>
 
         <div class="col quote-two">
@@ -45,7 +45,7 @@
             I will build a great, great wall on our southern border, and I will
             have Mexico pay for that wall. Mark my words.
           </h2>
-          <a><button id="quote-two-btn">Help The Wall Project</button></a>
+          <a><button id="button-two">Help The Wall Project</button></a>
         </div>
 
         <div class="col quote-three">
@@ -144,12 +144,12 @@
       </div>
 
 
-
-      <div id="myModal" class="modal">
+<!-- Modal One -->
+      <div id="modalOne" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
-          <span class="close">&times;</span>
+          <span class="close-one">&times;</span>
           <div class="modal-grid">
             <div class="modal-col story-one"></div>
               <div class="modal-col">
@@ -164,48 +164,122 @@
           
         
           <p>It was surprisingly hard for Trump to let go. He had spent days—weeks—blithely, practically defiantly modeling precisely what not to do during this burgeoning, life-altering crisis of a pandemic. He mingled with dignitaries at dinner. He convened news conferences with officials packed tighter than class pictures. And he shook hands like he’d never heard a single warning about how the coronavirus spreads. Then came Monday. Along with his noted change in tone at an appropriately sober briefing at the White House, the president finally seemed to heed the bare-minimum counsel of public health professionals—and refrained from pressing any flesh. What was remarkable about Trump’s obstinacy to that point wasn’t that he was flouting elite experts’ advice—more or less par for the course—but rather that he wasn’t jumping at this opportunity to revert to one of his strongest and longest-standing prepolitics precepts. For most of his life, he didn’t just shun shaking hands. He detested shaking hands. And he made this bugaboo of his nothing if not characteristically explicit. A self-described “germaphobe,” “germ freak” and “clean-hands freak,” Trump over the years has called the practice of the handshake “barbaric,” “disgusting,” “very, very terrible” and “one of the curses of American society.” He so stubbornly kept shaking hands, though, in the estimation of people who know him well, even as the spread of the virus started to spike, in an instinctual effort to avoid any implicit admission that he whiffed on preparedness or miscalculated the virus’ severity and to project as well his preferred patina of sanguine vigor and insusceptibility. Symbolism superseded safety. “He went from being a germaphobe to being a germaholic,” former Trump Organization executive vice president Louise Sunshine told me. “It’s a subconscious, if not conscious, way of saying, ‘Relax! Everything’s OK!’ Because if everything is not OK, he was wrong, and he can never be wrong,” added Alan Marcus, a former Trump publicist. “It’s more important for him to be right than to do right.” “What I’ve been thinking on this issue of one of the more famous germaphobes in the world sort of deliberately shaking hands recently,” Trump biographer Gwenda Blair said, “is that it seemed to have been some kind of show of strength—excuse me, of presumed strength—and invulnerability, a way to telegraph that he is not cowed, not scared, not going to be intimidated.” In the Rose Garden last Friday, for instance, when he declared a national emergency, “two very big words,” as he put it, Trump also nonetheless shook a bunch of hands. He shook hands with the CEO of Walmart. He shook hands with the CEO of Target. He shook hands with the CEO of Quest Diagnostics.</p>
-<p>He shook hands with the president of Walgreens. He shook hands with a vice president of CVS. And he tried to shake hands with an executive from the health care company called LHC Group. Bruce Greenstein, however, left him hanging, instead offering a best-practices elbow bump. Trump responded with a slight grimace, a sucking in of air, and an awkward attempt to touch elbows. “Practice that,” Greenstein said. “OK. I like that. That’s good,” Trump said—unconvincingly. But by Monday, there he was, in the White House, not shaking any hands, and not bumping any elbows, either, cringeworthy or otherwise. People keyed in on his dire words. “It’s bad. It’s bad.” But the absence of the simple gestures said just as much. All of the conspicuous handshaking, and in the face of a deadly disease no less, really was quite something to behold for everybody who’s known Trump for a long time, or who has been watching Trump for a long time, or who simply has done the requisite reading. “I’ve always had very strong feelings about cleanliness. I’m constantly washing my hands, and it wouldn’t bother me if I never had to shake hands with a well-meaning stranger again,” he said in Surviving at the Top, his book that was published in 1990, likening himself to the eccentric Howard Hughes on account of their shared “aversion to germs.” “You have germaphobia,” the shock jock Howard Stern said to him on his show in 1993. “True?” “I do,” Trump said. He was “preoccupied by a fear of communicable disease,” according to Jack O’Donnell, a former Trump casino executive in Atlantic City. As much as Trump needed the energy of the crowds, he loathed the actual reality of close-proximity intermingling, gamblers clamoring to shake his hand or merely to touch him for luck. Once ensconced again in an office, he was sure to hustle to a bathroom to lather his hands with soap. “The first thing he did,” O’Donnell once told me. “I feel much better after I thoroughly wash my hands,” he said in The Art of the Comeback in 1997. In 1999, when Trump toyed with the idea of running for president, his anti-handshake posture briefly became a topic of conversation among the talking heads on TV. “How are you going to run for office and not press the flesh?” Stone Phillips asked him on NBC. “Look,” Trump said, “if I have to do it, I do it.” “If you’re a politician at the rope line,” Wolf Blitzer pointed out on CNN, “you’ve got no choice.” Trump mostly conceded. “I guess if you’re a politician …” It didn’t mean he liked it. Before he incorporated into his speeches and rallies as president a stock bit about “tough,” “burly” men crying when they see him or the Oval Office while calling him “sir,” Trump talked regularly about men not just wanting to shake his hand but specifically emerging from bathrooms in restaurants to do it. “Almost nothing bothers me more than sitting down for dinner at a beautiful restaurant and having a man you’ve just seen leaving the men’s room, perhaps not even having washed his hands, spot you and run over to your table with a warm and friendly face, hand outstretched,” he said in Comeback. “The other night I was having dinner at a beautiful restaurant, and I see a guy coming out of a men’s room,” he explained to Geraldo Rivera on CNBC in 1999. “And he said, ‘Mr. Trump, I’m a huge fan of yours.’ And he puts out his hand. And, literally, I’m eating a roll …” “The good news is,” he said on CNN to Blitzer, unspooling the same tale two days later, “you don’t eat that roll.” “I was a little overweight at the time,” he said in 2004 in his book called How to Get Rich, “and knew that if I shook his hand I wouldn’t eat my meal—and that would be a good thing.” The main takeaway, as ever, as he put it in a header of a chapter: “Avoid the Handshake Whenever Possible.” Trump at times marveled at the people who don’t see this the way he does.</p>
-<p>Like Bill Clinton. “Clinton was shaking hands with 500 or 600 people,” he told Rivera toward the end of Clinton’s second term. “He then got into the back of the presidential limo, grabs a sandwich and he eats it, and no problem. I wish I could be like that. I just can’t.” And he seldom missed an opportunity to say he wasn’t wrong. “Statistically, I’ve been proven right. Many studies have found that you catch colds and who knows what else from shaking hands,” he told Playboy in 2004. “It’s a medical fact,” he said in Rich. “A lot of people are agreeing with me,” he once told Blitzer. MOST READ David Perdue waves while speaking during a December 2020 rally in Augusta, Ga. Trump-backed former Sen. David Perdue will announce primary bid against Georgia governor this week From ‘Huckleberry Capone’ to ‘Turd Blossom’: A History of White House Nicknames Why the threat to Roe may not save Democrats in 2022 Bob Dole, longtime Senate leader and 1996 GOP presidential nominee, dies at 98 ‘A real fight for our existence’: Massachusetts GOP spirals in Baker exit In October of 2014, during the Ebola outbreak centered in West Africa, Trump took to Twitter: “Something very important, and indeed society changing, may come out of the Ebola epidemic that will be a very good thing: NO SHAKING HANDS!” Eight and a half months later, of course, he came down that escalator to announce he was launching a run for the White House. He was (however reluctantly) ready to shake some hands. His was the Purell presidency well before this pandemic. Lots and lots of handwashing near the Oval. Wipes served with his steak and two scoops. His body man’s unsparing squirts of hand sanitizer. But he has done, too, what he said he would do, all the way back in 1999. Politicians have to shake hands. And from Vladimir Putin to Kim Jong Un, from Emmanuel Macron to Justin Trudeau, Trump as the handshaking president has made news, made history, made … people uncomfortable. And through the past few months and weeks, as the coronavirus continued to get worse and Trump continued to insist that it wasn’t, he kept shaking hands. With supporters at Mar-a-Lago. With tornado victims in Tennessee. With audience members in Scranton at a Fox News town hall. “I’ll be shaking hands with people—and they want to say hello and hug you and kiss you—I don’t care,” he said March 5. “You are shaking a lot of hands today and taking close pictures,” a reporter said to Trump on March 6. “Are you protecting yourself at all?” “No,” he answered. “Not at all.” “Why are you shaking hands, sir?” he was asked just this past Saturday. “Because it almost becomes a habit,” Trump said. He offered, maybe to himself, that he used to be “a non-handshaker, for the most part.” Eventually, though, he granted that people are “thinking about it more and more.” Even Trump. Again. Blair, the Trump biographer, told me she heard during Monday’s news conference an echo of the language of the germaphobe of old. “It washes through,” the president said of the eventual end of the outbreak. He acknowledged that “other people don’t like that term,” but Trump went ahead, anyway, and repeated it. “It washes through.”</p>
+<p>He shook hands with the president of Walgreens. He shook hands with a vice president of CVS. And he tried to shake hands with an executive from the health care company called LHC Group. Bruce Greenstein, however, left him hanging, instead offering a best-practices elbow bump. Trump responded with a slight grimace, a sucking in of air, and an awkward attempt to touch elbows. “Practice that,” Greenstein said. “OK. I like that. That’s good,” Trump said—unconvincingly. But by Monday, there he was, in the White House, not shaking any hands, and not bumping any elbows, either, cringeworthy or otherwise. People keyed in on his dire words. “It’s bad. It’s bad.” But the absence of the simple gestures said just as much. All of the conspicuous handshaking, and in the face of a deadly disease no less, really was quite something to behold for everybody who’s known Trump for a long time, or who has been watching Trump for a long time, or who simply has done the requisite reading. “I’ve always had very strong feelings about cleanliness. I’m constantly washing my hands, and it wouldn’t bother me if I never had to shake hands with a well-meaning stranger again,” he said in Surviving at the Top, his book that was published in 1990, likening himself to the eccentric Howard Hughes on account of their shared “aversion to germs.” “You have germaphobia,” the shock jock Howard Stern said to him on his show in 1993. “True?” “I do,” Trump said. He was “preoccupied by a fear of communicable disease,” according to Jack O’Donnell, a former Trump casino executive in Atlantic City. As much as Trump needed the energy of the crowds, he loathed the actual reality of close-one-proximity intermingling, gamblers clamoring to shake his hand or merely to touch him for luck. Once ensconced again in an office, he was sure to hustle to a bathroom to lather his hands with soap. “The first thing he did,” O’Donnell once told me. “I feel much better after I thoroughly wash my hands,” he said in The Art of the Comeback in 1997. In 1999, when Trump toyed with the idea of running for president, his anti-handshake posture briefly became a topic of conversation among the talking heads on TV. “How are you going to run for office and not press the flesh?” Stone Phillips asked him on NBC. “Look,” Trump said, “if I have to do it, I do it.” “If you’re a politician at the rope line,” Wolf Blitzer pointed out on CNN, “you’ve got no choice.” Trump mostly conceded. “I guess if you’re a politician …” It didn’t mean he liked it. Before he incorporated into his speeches and rallies as president a stock bit about “tough,” “burly” men crying when they see him or the Oval Office while calling him “sir,” Trump talked regularly about men not just wanting to shake his hand but specifically emerging from bathrooms in restaurants to do it. “Almost nothing bothers me more than sitting down for dinner at a beautiful restaurant and having a man you’ve just seen leaving the men’s room, perhaps not even having washed his hands, spot you and run over to your table with a warm and friendly face, hand outstretched,” he said in Comeback. “The other night I was having dinner at a beautiful restaurant, and I see a guy coming out of a men’s room,” he explained to Geraldo Rivera on CNBC in 1999. “And he said, ‘Mr. Trump, I’m a huge fan of yours.’ And he puts out his hand. And, literally, I’m eating a roll …” “The good news is,” he said on CNN to Blitzer, unspooling the same tale two days later, “you don’t eat that roll.” “I was a little overweight at the time,” he said in 2004 in his book called How to Get Rich, “and knew that if I shook his hand I wouldn’t eat my meal—and that would be a good thing.” The main takeaway, as ever, as he put it in a header of a chapter: “Avoid the Handshake Whenever Possible.” Trump at times marveled at the people who don’t see this the way he does.</p>
+<p>Like Bill Clinton. “Clinton was shaking hands with 500 or 600 people,” he told Rivera toward the end of Clinton’s second term. “He then got into the back of the presidential limo, grabs a sandwich and he eats it, and no problem. I wish I could be like that. I just can’t.” And he seldom missed an opportunity to say he wasn’t wrong. “Statistically, I’ve been proven right. Many studies have found that you catch colds and who knows what else from shaking hands,” he told Playboy in 2004. “It’s a medical fact,” he said in Rich. “A lot of people are agreeing with me,” he once told Blitzer. MOST READ David Perdue waves while speaking during a December 2020 rally in Augusta, Ga. Trump-backed former Sen. David Perdue will announce primary bid against Georgia governor this week From ‘Huckleberry Capone’ to ‘Turd Blossom’: A History of White House Nicknames Why the threat to Roe may not save Democrats in 2022 Bob Dole, longtime Senate leader and 1996 GOP presidential nominee, dies at 98 ‘A real fight for our existence’: Massachusetts GOP spirals in Baker exit In October of 2014, during the Ebola outbreak centered in West Africa, Trump took to Twitter: “Something very important, and indeed society changing, may come out of the Ebola epidemic that will be a very good thing: NO SHAKING HANDS!” Eight and a half months later, of course, he came down that escalator to announce he was launching a run for the White House. He was (however reluctantly) ready to shake some hands. His was the Purell presidency well before this pandemic. Lots and lots of handwashing near the Oval. Wipes served with his steak and two scoops. His body man’s unsparing squirts of hand sanitizer. But he has done, too, what he said he would do, all the way back in 1999. Politicians have to shake hands. And from Vladimir Putin to Kim Jong Un, from Emmanuel Macron to Justin Trudeau, Trump as the handshaking president has made news, made history, made … people uncomfortable. And through the past few months and weeks, as the coronavirus continued to get worse and Trump continued to insist that it wasn’t, he kept shaking hands. With supporters at Mar-a-Lago. With tornado victims in Tennessee. With audience members in Scranton at a Fox News town hall. “I’ll be shaking hands with people—and they want to say hello and hug you and kiss you—I don’t care,” he said March 5. “You are shaking a lot of hands today and taking close-one pictures,” a reporter said to Trump on March 6. “Are you protecting yourself at all?” “No,” he answered. “Not at all.” “Why are you shaking hands, sir?” he was asked just this past Saturday. “Because it almost becomes a habit,” Trump said. He offered, maybe to himself, that he used to be “a non-handshaker, for the most part.” Eventually, though, he granted that people are “thinking about it more and more.” Even Trump. Again. Blair, the Trump biographer, told me she heard during Monday’s news conference an echo of the language of the germaphobe of old. “It washes through,” the president said of the eventual end of the outbreak. He acknowledged that “other people don’t like that term,” but Trump went ahead, anyway, and repeated it. “It washes through.”</p>
 <a href="https://www.politico.com/news/magazine/2020/03/18/coronavirus-gave-trump-the-handshake-free-world-he-always-wanted-134467" class="source">Source</p></a>  
 
         </div>
         </div>
               </div>
             </div>
-        </div></div>
+        </div>
+<!-- Modal Two -->
+<div id="modalTwo" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close-two">&times;</span>
+    <div class="modal-grid">
+      <div class="modal-col story-two"></div>
+        <div class="modal-col">
+          
+    <div class="story-content">
+      <h2 class="modal-sayings">
+        I will build a great, great wall on our southern border, and I will have Mexico pay for that wall. Mark my words.
+      </h2>
+      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Border Control</p>
+          <p class="modal-date"><span style="font-weight: 800;">When: </span>Campaign launch rally, June 2015</p>
+    
+  
+          <p>When he launched his campaign, Donald Trump argued that he would force Mexico to pay for a border wall. Now he says he “obviously” didn’t mean it. “I would build a great wall, and nobody builds walls better than me, believe me, and I’ll build them very inexpensively, I will build a great, great wall on our southern border. And I will have Mexico pay for that wall,” Trump said in his June 16, 2015 speech at Trump Tower. “Mark my words.” Like many of the claims in that speech, Trump did not offer specifics. But as the campaign went on, he said he would find the money by reducing the trade deficit (that wouldn’t really work), convincing Mexico to pay with clever deal-making, forcing it to pay by blocking wire transfers and visas, increasing visa fees on Mexican citizens or building the wall first and convincing Mexico to reimburse the U.S.</p>
+          <p>In 2016, Trump even said specifically that Mexico would be compelled to give the U.S. a “one-time payment” of $5 to 10 billion for the wall, both in a memo sent to reporters and in his campaign platform. But as he prepared to fly to the southern border on Thursday, Trump changed his tune, claiming, falsely, that he never said that Mexico would pay for the border wall and that he never meant that the country would literally hand the U.S. money for the wall.</p>
+          <p>“When during the campaign, I would say ‘Mexico is going to pay for it,’ obviously, I never said this, and I never meant they’re gonna write out a check, I said they’re going to pay for it. They are,” Trump said Again, Trump did say Mexico would pay for the wall, and he did say that it would hand the U.S. money for it. Trump’s latest comment about Mexico paying for the wall came just hours after White House strategic communications director Mercedes Schlapp said in a CNN interview that U.S. taxpayers will foot the bill for the wall. “Yes. And you know what else taxpayers are paying for? The financial burden of this illegal immigration,” Schlapp said Wednesday in response to a question about whether Americans were paying for the wall.</p>
+          <p>Trump’s statement also comes amid a partial government shutdown designed to coerce House Democrats into voting for $5.7 billion for a wall or “steel barrier” on the southern border. As president, Trump has argued that Mexico will pay for the wall indirectly through the U.S. Mexico Canada Agreement, which has not been ratified. However, experts say that the new deal doesn’t have any provisions to use tariff funds to build a wall and that Mexico would never agree to the treaty if it did. “That’s not the way trade agreements work,” Welles Orr, who worked on the original NAFTA agreement as the Assistant U.S. Trade Representative for Congressional Affairs under George H.W. Bush, told TIME. “Tariffs that are collected by the U.S. Treasury would fund the U.S. Treasury.” The claim that Mexico would pay for the wall indirectly is at odds with the Trump campaign’s most specific descriptions of how it would work. In a two-page memo released to the Washington Post and other outlets on March 31, 2016, Trump presented a detailed plan on how to “compel Mexico to pay for the wall.” This plan would include including implementing new trade tariffs, cancelling visas and increasing visa fees. The memo said the first step would be to block Mexican nationals who are in the U.S., legally and illegally, from wiring money back to Mexico. Trump wrote that this would prevent about $24 billion from flowing into Mexico.</p>
+          <p>“It’s an easy decision for Mexico. Make a one-time payment of $5 – $10 billion to ensure that $24 billion continues to flow into their country year after year,” the memo said.Trump’s campaign platform also said that the U.S. would take multiple steps to force Mexico to pay for the wall. Besides impounding remittances, the platform said that as president, he would would also increase fees for visas and border crossing cards, as well as fees at border entries.“We will not be taken advantage of anymore,” the platform concluded. Trump had also previously suggested other ways that Mexico could pay for the wall. In an April 2015 tweet, Trump wrote that the U.S. deduct the cost of the wall “from Mexican foreign aid.”</p>
+          <a href="https://time.com/5499391/donald-trump-border-wall-mexico-pay/" class="source">Source</p></a>  
+
+  </div>
+  </div>
+        </div>
+      </div>
+  </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      </div>
 
 
 
 <div class="footer"><p>
   cry baby.. cry...</p>
 </div></div>
+
+<!-- Modal One -->
 <script>
   // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("modalOne");
 
 // Get the button that opens the modal
 var btn = document.getElementById("button-one");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+// Get the <span> element that close-ones the modal
+var span = document.getElementsByClassName("close-one")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> (x), close-one the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the modal, close-one it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
 </script>
+<!-- Modal Two -->
+<!--<script>
+  // Get the modal
+var modal = document.getElementById("modalTwo");
+
+// Get the button that opens the modal
+var btn = document.getElementById("button-two");
+
+// Get the <span> element that close-ones the modal
+var span = document.getElementsByClassName("close-two")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close-one the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close-one it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>-->
+
+
+
+
+
       <!-- end flex grid area -->
     </div>
   </body>

@@ -140,8 +140,8 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 10px;
 }
 
-/* The Close Button */
-.close {
+/* The close-one Button */
+.close-one {
   color: #fff;
   position: absolute;
   right: 1em;
@@ -152,8 +152,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 }
 
-.close:hover,
-.close:focus {
+.close-one:hover,
+.close-one:focus {
   color: #ffffff60;
   text-decoration: none;
   cursor: pointer;

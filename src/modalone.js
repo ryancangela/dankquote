@@ -1,6 +1,8 @@
 // Modal One
   // Get the modal
-var modal = document.getElementById("modalOne");
+  doFunction()
+
+  var modal = document.getElementById("modalOne");
 
 // Get the button that opens the modal
 var btn = document.getElementById("button-one");

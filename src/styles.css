@@ -21,7 +21,7 @@ font-family: 'Lato', sans-serif;
 
 h1 {
   font-size: 3rem;
-  padding-left: 2em;
+  padding: 0 2.5vw;
   margin-top: 1em;
   line-height: 1.25em;
   margin-bottom: -1em;
@@ -356,17 +356,22 @@ p.modal-topic {
   border-radius: 10px;
 }
 
-/* The Close Button */
-.close {
+/* The close-one Button */
+.close-one, .close-two {
   color: #fff;
   float: right;
   font-size: 28px;
   font-weight: bold;
-
 }
 
-.close:hover,
-.close:focus {
+.close-one:hover,
+.close-one:focus {
+  color: #ffffff60;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close-two:hover,
+.close-two:focus {
   color: #ffffff60;
   text-decoration: none;
   cursor: pointer;
@@ -402,6 +407,18 @@ p.modal-topic {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px 0 0 10px;
+  background-position: center;
+}
+.story-two{
+  filter: grayscale(0);
+  background-blend-mode: normal;
+  transition: all ease-in-out 1.5s;
+  filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+  background-position: center;
 }
 .source{
   color: #fff;
