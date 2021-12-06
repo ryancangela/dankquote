@@ -24,7 +24,6 @@ h1 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
   color: #fff;
-  transition: all 2.5s;
 }
 
 /* flex grid styles */
@@ -60,8 +59,7 @@ h2.sayings {
   font-family: "Inter", sans-serif;
   color: #fff;
   margin: 1em 0 1.5em 0;
-  filter: drop-shadow(0 5px 8px #33333380);
-  transition: all 2.5s;
+  filter: drop-shadow(0 2px 4px #333333);
 }
 
 h2.sayings:before {
@@ -148,36 +146,42 @@ h2.sayings:after {
   background-blend-mode: normal;
   transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
 }
 .quote-two:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
 }
 .quote-three:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
 }
 .quote-four:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_four-drk.jpg");
 }
 .quote-five:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-six-drk.jpg");
 }
 .quote-six:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all 2.5s;
   filter: drop-shadow(0 2px 8px #33333360);
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five-drk.jpg");
 }
 
 p.date,
@@ -198,6 +202,17 @@ p.topic {
 }
 .date {
   order: 1;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 500;
+}
+
+.footer p {
+  margin: 3vh 0 2.5vh 0;
+  font-size: 1.25rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  color: #ffffff30;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
