@@ -229,7 +229,7 @@ p.modal-topic {
 .story-content p{
   padding: .15em 0;
 }
-.story-one, .story-two, .story-three, .story-four, .story-five, .story-six{
+.story-one, .story-two, .story-three, .story-four, .story-five, .story-six, .story-seven, .story-eight, .story-nine{
   border-radius: 0;
 }
 
@@ -240,12 +240,12 @@ p.modal-topic {
 }
 .source{
   color: #000;
-    float: left;
-    font-size: calc(20px + 2vw);
-    padding: 30px 70px;
-    max-height: 55px;
-    font-weight: 600;
-    border-radius: 0px;
+  float: left;
+  font-size: calc(10px + 1vw);
+  padding: 10px 40px;
+  max-height: 25px;
+  font-weight: 600;
+  border-radius: 20px;
 }
 
 /* modal scrollbar */
@@ -446,7 +446,7 @@ p.modal-topic {
   padding: .15em 0;
 }
 
-.story-one, .story-two, .story-three, .story-four, .story-five, .story-six{
+.story-one, .story-two, .story-three, .story-four, .story-five, .story-six, .story-seven, .story-eight, .story-nine{
   border-radius: 0;
 }
 
@@ -457,12 +457,12 @@ p.modal-topic {
 }
 .source{
   color: #000;
-    float: left;
-    font-size: calc(20px + 2vw);
-    padding: 30px 70px;
-    max-height: 55px;
-    font-weight: 600;
-    border-radius: 20px;
+  float: left;
+  font-size: calc(12px + 1vw);
+  padding: 10px 40px;
+  max-height: 23px;
+  font-weight: 600;
+  border-radius: 20px;
 }
 
 /* modal scrollbar */

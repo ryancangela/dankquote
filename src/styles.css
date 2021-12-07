@@ -390,7 +390,7 @@ p.modal-topic {
   justify-self: center;
   align-self: center;
 }
-.story-one, .story-two, .story-three, .story-four, .story-five, .story-six{
+.story-one, .story-two, .story-three, .story-four, .story-five, .story-six, .story-seven, .story-eight, .story-nine{
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
@@ -418,6 +418,16 @@ p.modal-topic {
 .story-six {
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five-drk.jpg");
 }
+.story-seven {
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-eight-drk.jpg");
+}
+.story-eight {
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-nine-drk.jpg");
+}
+.story-nine{
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-seven-drk.jpg");
+}
+
 .source{
   color: #000;
   float: left;
@@ -465,6 +475,15 @@ input[type="checkbox"] {
   display: block;
 }
 #modal6:target {
+  display: block;
+}
+#modal7:target {
+  display: block;
+}
+#modal8:target {
+  display: block;
+}
+#modal9:target {
   display: block;
 }
 /*[id^="modal"] a {
