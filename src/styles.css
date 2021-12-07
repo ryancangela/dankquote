@@ -40,7 +40,7 @@ h1 {
   filter: drop-shadow(0 0.75em 1.5em #33333380);
   justify-self: center;
   align-self: center;
-  border-radius: 20px;
+  border-radius: 25px;
   overflow: hidden;
   background-color: #333;
   padding: 1em;
@@ -82,7 +82,7 @@ h2.sayings:after {
 }
 
 h2.modal-sayings {
-  font-size: 1.45rem;
+  font-size: 2.45rem;
   line-height: 1.5em;
   /*padding: 0 2em 0 2em;*/
   text-align: left;
@@ -113,7 +113,7 @@ h2.modal-sayings:after {
 }
 
 .quote-one {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -121,7 +121,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-two {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two.jpeg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -129,7 +129,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-three {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -137,7 +137,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-four {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_four.jpeg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_four-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -145,7 +145,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-five {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-six.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-six-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -153,7 +153,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-six {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -161,7 +161,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-seven {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-eight.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-eight-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -169,7 +169,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-eight {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-nine.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-nine-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -177,7 +177,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-nine {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-seven.jpg");
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-seven-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -201,63 +201,54 @@ h2.modal-sayings:after {
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
 }
 .quote-two:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
 }
 .quote-three:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
 }
 .quote-four:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_four-drk.jpg");
 }
 .quote-five:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-six-drk.jpg");
 }
 .quote-six:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five-drk.jpg");
 }
 .quote-seven:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-eight-drk.jpg");
 }
 .quote-eight:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-nine-drk.jpg");
 }
 .quote-nine:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
   filter: drop-shadow(0 2px 8px #33333360);
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-seven-drk.jpg");
 }
 
 p.date,
@@ -286,18 +277,17 @@ p.modal-date,
 p.modal-topic {
   width: 100%;
   text-align: left;
-  line-height: 1em;
+  line-height: .75em;
   font-family: "Karla", sans-serif;
   color: #fff;
+  font-size: 2rem;
   filter: drop-shadow(0 2px 4px #33333380);
 }
 .modal-topic {
-  font-size: 1em;
   font-weight: 400;
   /*margin: 2vh 0 0 2rem;*/
 }
 .modal-date {
-  font-size: 0.9rem;
   font-weight: 400;
   /*margin: .75vh 0 0 2rem;*/
 }
@@ -314,6 +304,10 @@ p.modal-topic {
   color: #fff;
   text-align: left;
   font-family: "Karla", sans-serif;
+}
+
+.article{
+  margin: 3em 0 0 0;
 }
 
 .footer p {
@@ -349,16 +343,20 @@ p.modal-topic {
   filter: drop-shadow(0 5px 10px #33333350);
   width: 85%;
   height: min-content;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 /* The close-one Button */
 .close-one,
 .close-two, .close-three {
   color: #fff;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 2vh;
+    z-index: 9999;
+    right: 2.55vh;
 }
 
 .close-one:hover,
@@ -404,39 +402,47 @@ p.modal-topic {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
-  filter: drop-shadow(0 2px 8px #33333360);
+  
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px 0 0 10px;
+  border-radius: 25px 0 0 25px;
   background-position: center;
 }
 .story-two {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
-  filter: drop-shadow(0 2px 8px #33333360);
+  
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px 0 0 10px;
+  border-radius: 25px 0 0 25px;
   background-position: center;
 }
 .story-three {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
-  filter: drop-shadow(0 2px 8px #33333360);
+  
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 10px 0 0 10px;
+  border-radius: 25px 0 0 25px;
   background-position: center;
 }
-.source {
-  color: #fff;
+.source{
+  color: #000;
   float: left;
+  font-family: 'Lato', sans-serif;
   font-size: 1rem;
+  text-decoration: none;
+  background-color: #f4f4f4;
+  padding: 10px 50px 0 50px;
+  max-height: 55px;
+  font-weight: 800;
+  border-radius: 20px;
+  margin: 1em 1em;
 }
 
 [id^="modal"] {
@@ -465,9 +471,9 @@ input[type="checkbox"] {
 #modal3:target {
   display: block;
 }
-[id^="modal"] a {
+/*[id^="modal"] a {
   float: right;
-}
+}*/
 
 @keyframes fadein {
 	from {

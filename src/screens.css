@@ -177,7 +177,6 @@ body::-webkit-scrollbar-thumb:hover {
   height: 30vh;
   min-height: 25vh;
   width: 100%;
-  filter: drop-shadow(0 0.75em 1.5em #33333380);
   justify-self: center;
   align-self: center;
 }
@@ -187,7 +186,6 @@ body::-webkit-scrollbar-thumb:hover {
   filter: grayscale(0);
   background-blend-mode: normal;
   transition: all ease-in-out 1.5s;
-  filter: drop-shadow(0 2px 8px #33333360);
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -204,26 +202,27 @@ h2.modal-sayings {
   font-family: "Inter", sans-serif;
   color: #fff;
   /*margin: 1em 0 1.5em 0;*/
-  filter: drop-shadow(0 2px 4px #333333);
 }
 
 p.modal-date,
 p.modal-topic {
   width: 100%;
   text-align: left;
-  line-height: 1em;
+  line-height: .5em;
   font-family: "Karla", sans-serif;
   color: #fff;
-  filter: drop-shadow(0 2px 4px #33333380);
+  font-size: 2.5rem;
 }
 .modal-topic {
   font-size: 2.25rem;
   font-weight: 400;
+  margin-top: 2em;
   /*margin: 2vh 0 0 2rem;*/
 }
 .modal-date {
   font-size: 2rem;
   font-weight: 400;
+  margin-bottom: 2em;
   /*margin: .75vh 0 0 2rem;*/
 }
 
@@ -231,20 +230,53 @@ p.modal-topic {
   overflow-y: scroll;
   overflow-x: hidden;
   max-height: 95%;
-  width: 87.5%;
+  width: 87%;
   padding: 0 2em;
   margin: .75vh 0 0 2rem;
   min-height: 65vh;
-  background-image: linear-gradient(rgb(17, 17, 17), #000);
+  /*background-image: linear-gradient(rgb(17, 17, 17), #000);*/
 }
 .story-content p{
-  font-size: 2rem;
-  padding: 1em 0;
+  padding: .15em 0;
+}
+.article p{
+  font-size: 2.5rem;
+  padding: .15em 0;
+  line-height: 1.5em;
 }
 .source{
-  color: #fff;
-  float: left;
-  font-size: calc(16px + 1.5vw);
+  color: #000;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-size: calc(20px + 2vw);
+    text-decoration: none;
+    background-color: #f4f4f4;
+    padding: 20px 50px;
+    max-height: 55px;
+    font-weight: 800;
+    border-radius: 20px;
 }
+
+/* modal scrollbar */
+.story-content::-webkit-scrollbar {
+  width: 20px;
+  background-color: #000;
+}
+
+.story-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.story-content::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.story-content::-webkit-scrollbar-thumb:hover {
+  background-color: #333333;
+}
+
 
 }
