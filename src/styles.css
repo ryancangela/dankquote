@@ -18,6 +18,13 @@ font-family: 'Karla', sans-serif;
 font-family: 'Lato', sans-serif;
 */
 
+/*hide these - temp*/
+.quote-seven, .quote-eight, .quote-nine{
+  display: block;
+}
+
+
+
 h1 {
   font-size: 3rem;
   padding: 0 2.5vw;
@@ -33,9 +40,7 @@ h1 {
 
 .col {
   flex: 1;
-  min-height: calc(100vh - 70vh);
-  height: max-content;
-  max-height: 40vh;
+  min-height: calc(100vh - 68vh);
   width: 92.5%;
   filter: drop-shadow(0 0.75em 1.5em #33333380);
   justify-self: center;
@@ -89,7 +94,7 @@ h2.modal-sayings {
   display: block;
   font-family: "Inter", sans-serif;
   color: #fff;
-  /*margin: 1em 0 1.5em 0;*/
+  margin: 0;
   filter: drop-shadow(0 2px 4px #333333);
 }
 
@@ -280,7 +285,7 @@ p.modal-topic {
   line-height: .75em;
   font-family: "Karla", sans-serif;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   filter: drop-shadow(0 2px 4px #33333380);
 }
 .modal-topic {
@@ -308,6 +313,7 @@ p.modal-topic {
 
 .article{
   margin: 3em 0 0 0;
+  line-height: 1.7em;
 }
 
 .footer p {
@@ -347,32 +353,19 @@ p.modal-topic {
 }
 
 /* The close-one Button */
-.close-one,
-.close-two, .close-three {
+.close-one{
   color: #fff;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    top: 2vh;
-    z-index: 9999;
-    right: 2.55vh;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  z-index: 9999;
+  left: 20px;
 }
 
 .close-one:hover,
 .close-one:focus {
-  color: #ffffff60;
-  text-decoration: none;
-  cursor: pointer;
-}
-.close-two:hover,
-.close-two:focus {
-  color: #ffffff60;
-  text-decoration: none;
-  cursor: pointer;
-}
-.close-three:hover,
-.close-three:focus {
   color: #ffffff60;
   text-decoration: none;
   cursor: pointer;
@@ -397,39 +390,33 @@ p.modal-topic {
   justify-self: center;
   align-self: center;
 }
+.story-one, .story-two, .story-three, .story-four, .story-five, .story-six{
+  filter: grayscale(0);
+  background-blend-mode: normal;
+  transition: all ease-in-out 1.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px 0 0 25px;
+  background-position: center;
+}
 
 .story-one {
-  filter: grayscale(0);
-  background-blend-mode: normal;
-  transition: all ease-in-out 1.5s;
-  
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 25px 0 0 25px;
-  background-position: center;
 }
 .story-two {
-  filter: grayscale(0);
-  background-blend-mode: normal;
-  transition: all ease-in-out 1.5s;
-  
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 25px 0 0 25px;
-  background-position: center;
 }
 .story-three {
-  filter: grayscale(0);
-  background-blend-mode: normal;
-  transition: all ease-in-out 1.5s;
-  
   background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 25px 0 0 25px;
-  background-position: center;
+}
+.story-four {
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_four-drk.jpg");
+}
+.story-five {
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-six-drk.jpg");
+}
+.story-six {
+  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald-five-drk.jpg");
 }
 .source{
   color: #000;
@@ -440,7 +427,7 @@ p.modal-topic {
   background-color: #f4f4f4;
   padding: 10px 50px 0 50px;
   max-height: 55px;
-  font-weight: 800;
+  font-weight: 600;
   border-radius: 20px;
   margin: 1em 1em;
 }
@@ -469,6 +456,15 @@ input[type="checkbox"] {
   display: block;
 }
 #modal3:target {
+  display: block;
+}
+#modal4:target {
+  display: block;
+}
+#modal5:target {
+  display: block;
+}
+#modal6:target {
   display: block;
 }
 /*[id^="modal"] a {
