@@ -1,448 +1,817 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Donald Says</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="src/styles.css" />
-    <link rel="stylesheet" href="src/screens.css" />
-    <script type="text/javascript" src="src/modalone.js"></script>
-    <!--<link rel="stylesheet" href="global.css">-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="section-hero">
-      <h1>Donald Says...</h1>
 
-      <!-- Modal One -->
+<head>
+  <title>Donald Says</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/styles.css" />
+  <link rel="stylesheet" href="src/screens.css" />
+  <!--<link rel="stylesheet" href="global.css">-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@300;400;500;600;700;800&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="section-hero">
+    <h1>Donald Says...</h1>
+
+    <!-- Modal One -->
 
 
-      <!-- flex grid area -->
-      <div class="flex-grid">
-        <div class="col quote-one">
-          <div class="quote-info-wrapper">
-            <p class="date">Playboy, March 1990</p>
-            <p class="topic">Domestic Policy</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_three.jpg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            I think if this country gets any kinder or gentler, it's literally
-            going to cease to exist.
-          </h2>
-          <a href="#modal1"><button>More about Domestic Policy</button></a>
+    <!-- flex grid area -->
+    <div class="flex-grid">
+      <div class="col quote-one">
+        <div class="quote-info-wrapper">
+          <p class="date">Playboy, March 1990</p>
+          <p class="topic">Domestic Policy</p>
         </div>
-
-        <div class="col quote-two">
-          <div class="quote-info-wrapper">
-            <p class="date">Campaign launch rally, June 2015</p>
-            <p class="topic">Border Control</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_two.jpeg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            I will build a great, great wall on our southern border, and I will
-            have Mexico pay for that wall. Mark my words.
-          </h2>
-          <a href="#modal2"><button>Help The Wall Project</button></a>
-        </div>
-
-        <div class="col quote-three">
-          <div class="quote-info-wrapper">
-            <p class="date">SNBC, March 2016</p>
-            <p class="topic">Abortion</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_one.jpg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            Do you believe in punishment for abortion – yes or no – as a
-            principle?
-          </h2>
-          <a href="#modal3"><button>#KeepTheBaby</button></a>
-        </div>
-
-        <div class="col quote-four">
-          <div class="quote-info-wrapper">
-            <p class="date">
-              This Week with George Stephanopoulos, February 2016
-            </p>
-            <p class="topic">Terrorism</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_four.jpeg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            When you see the other side chopping off heads, waterboarding
-            doesn't sound very severe.
-          </h2>
-          <a href="#modal4"><button>View Top Ranked Terrorists</button></a>
-        </div>
-
-        <div class="col quote-five">
-          <div class="quote-info-wrapper">
-            <p class="date">Playboy, October 2004</p>
-            <p class="topic">Shaking Hands</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-six.webp" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            The concept of shaking hands is absolutely terrible, and
-            statistically I've been proven right.
-          </h2>
-          <a href="#modal5"><button>Shaking Hands Is Bad</button></a>
-        </div>
-
-        <div class="col quote-six">
-          <div class="quote-info-wrapper">
-            <p class="date">Twitter, September 2013</p>
-            <p class="topic">His Intelligence</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-five.jpg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            Sorry losers and haters, but my IQ is one of the highest - and you
-            all know it! Please don't feel so stupid or insecure, it's not your
-            fault.
-          </h2>
-          <a href="#modal6"><button>Question My Intelligence</button></a>
-        </div>
-
-        <div class="col quote-seven">
-          <div class="quote-info-wrapper">
-            <p class="date">TIME, April 2011</p>
-            <p class="topic">Financial Success</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-nine.jpg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            I look very much forward to showing my financials, because they are huge.
-          </h2>
-          <a href="#modal7"><button>Review My Taxes</button></a>
-        </div>
-
-        <div class="col quote-eight">
-          <div class="quote-info-wrapper">
-            <p class="date">Trump: How To Get Rich, 2004</p>
-            <p class="topic">Romance</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-eight.jpg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be expected.
-          </h2>
-          <a href="#modal8"><button>Check Out My Ex Wives</button></a>
-        </div>
-
-        <div class="col quote-nine">
-          <div class="quote-info-wrapper">
-            <p class="date">The View, 2006</p>
-            <p class="topic">Family...</p>
-          </div>
-          <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-seven.jpg" src="photo" style="width:100%"></div>-->
-          <h2 class="sayings">
-            She does have a very nice figure... If [Ivanka] weren't my daughter, perhaps I'd be dating her.
-          </h2>
-          <a href="#modal9"><button>See My Other Daughter</button></a>
-        </div>
-
-
-
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_three.jpg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          I think if this country gets any kinder or gentler, it's literally
+          going to cease to exist.
+        </h2>
+        <a href="#modal1"><button>More about Domestic Policy</button></a>
       </div>
 
-
-<!-- Modal One -->
-      <div id="modal1" class="modal">
-        <!-- Modal content -->
-        <div class="modal-content">
-          <a href="#"><div class="close-one">
-          &times;</div></a>
-          <div class="modal-grid">
-            <div class="modal-col story-one"></div>
-              <div class="modal-col">
-                
-          <div class="story-content">
-            <h2 class="modal-sayings">
-              The concept of shaking hands is absolutely terrible, and
-              statistically I've been proven right.
-            </h2>
-            <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Shaking Hands</p>
-                <p class="modal-date"><span style="font-weight: 800;">When: </span>Playboy, October 2004</p>        
-          <div class="article"><p>It was surprisingly hard for Trump to let go. He had spent days—weeks—blithely, practically defiantly modeling precisely what not to do during this burgeoning, life-altering crisis of a pandemic. He mingled with dignitaries at dinner. He convened news conferences with officials packed tighter than class pictures. And he shook hands like he’d never heard a single warning about how the coronavirus spreads. Then came Monday. Along with his noted change in tone at an appropriately sober briefing at the White House, the president finally seemed to heed the bare-minimum counsel of public health professionals—and refrained from pressing any flesh. What was remarkable about Trump’s obstinacy to that point wasn’t that he was flouting elite experts’ advice—more or less par for the course—but rather that he wasn’t jumping at this opportunity to revert to one of his strongest and longest-standing prepolitics precepts. For most of his life, he didn’t just shun shaking hands. He detested shaking hands. And he made this bugaboo of his nothing if not characteristically explicit. A self-described “germaphobe,” “germ freak” and “clean-hands freak,” Trump over the years has called the practice of the handshake “barbaric,” “disgusting,” “very, very terrible” and “one of the curses of American society.” He so stubbornly kept shaking hands, though, in the estimation of people who know him well, even as the spread of the virus started to spike, in an instinctual effort to avoid any implicit admission that he whiffed on preparedness or miscalculated the virus’ severity and to project as well his preferred patina of sanguine vigor and insusceptibility. Symbolism superseded safety. “He went from being a germaphobe to being a germaholic,” former Trump Organization executive vice president Louise Sunshine told me. “It’s a subconscious, if not conscious, way of saying, ‘Relax! Everything’s OK!’ Because if everything is not OK, he was wrong, and he can never be wrong,” added Alan Marcus, a former Trump publicist. “It’s more important for him to be right than to do right.” “What I’ve been thinking on this issue of one of the more famous germaphobes in the world sort of deliberately shaking hands recently,” Trump biographer Gwenda Blair said, “is that it seemed to have been some kind of show of strength—excuse me, of presumed strength—and invulnerability, a way to telegraph that he is not cowed, not scared, not going to be intimidated.” In the Rose Garden last Friday, for instance, when he declared a national emergency, “two very big words,” as he put it, Trump also nonetheless shook a bunch of hands. He shook hands with the CEO of Walmart. He shook hands with the CEO of Target. He shook hands with the CEO of Quest Diagnostics.</p>
-<p>He shook hands with the president of Walgreens. He shook hands with a vice president of CVS. And he tried to shake hands with an executive from the health care company called LHC Group. Bruce Greenstein, however, left him hanging, instead offering a best-practices elbow bump. Trump responded with a slight grimace, a sucking in of air, and an awkward attempt to touch elbows. “Practice that,” Greenstein said. “OK. I like that. That’s good,” Trump said—unconvincingly. But by Monday, there he was, in the White House, not shaking any hands, and not bumping any elbows, either, cringeworthy or otherwise. People keyed in on his dire words. “It’s bad. It’s bad.” But the absence of the simple gestures said just as much. All of the conspicuous handshaking, and in the face of a deadly disease no less, really was quite something to behold for everybody who’s known Trump for a long time, or who has been watching Trump for a long time, or who simply has done the requisite reading. “I’ve always had very strong feelings about cleanliness. I’m constantly washing my hands, and it wouldn’t bother me if I never had to shake hands with a well-meaning stranger again,” he said in Surviving at the Top, his book that was published in 1990, likening himself to the eccentric Howard Hughes on account of their shared “aversion to germs.” “You have germaphobia,” the shock jock Howard Stern said to him on his show in 1993. “True?” “I do,” Trump said. He was “preoccupied by a fear of communicable disease,” according to Jack O’Donnell, a former Trump casino executive in Atlantic City. As much as Trump needed the energy of the crowds, he loathed the actual reality of close-one-proximity intermingling, gamblers clamoring to shake his hand or merely to touch him for luck. Once ensconced again in an office, he was sure to hustle to a bathroom to lather his hands with soap. “The first thing he did,” O’Donnell once told me. “I feel much better after I thoroughly wash my hands,” he said in The Art of the Comeback in 1997. In 1999, when Trump toyed with the idea of running for president, his anti-handshake posture briefly became a topic of conversation among the talking heads on TV. “How are you going to run for office and not press the flesh?” Stone Phillips asked him on NBC. “Look,” Trump said, “if I have to do it, I do it.” “If you’re a politician at the rope line,” Wolf Blitzer pointed out on CNN, “you’ve got no choice.” Trump mostly conceded. “I guess if you’re a politician …” It didn’t mean he liked it. Before he incorporated into his speeches and rallies as president a stock bit about “tough,” “burly” men crying when they see him or the Oval Office while calling him “sir,” Trump talked regularly about men not just wanting to shake his hand but specifically emerging from bathrooms in restaurants to do it. “Almost nothing bothers me more than sitting down for dinner at a beautiful restaurant and having a man you’ve just seen leaving the men’s room, perhaps not even having washed his hands, spot you and run over to your table with a warm and friendly face, hand outstretched,” he said in Comeback. “The other night I was having dinner at a beautiful restaurant, and I see a guy coming out of a men’s room,” he explained to Geraldo Rivera on CNBC in 1999. “And he said, ‘Mr. Trump, I’m a huge fan of yours.’ And he puts out his hand. And, literally, I’m eating a roll …” “The good news is,” he said on CNN to Blitzer, unspooling the same tale two days later, “you don’t eat that roll.” “I was a little overweight at the time,” he said in 2004 in his book called How to Get Rich, “and knew that if I shook his hand I wouldn’t eat my meal—and that would be a good thing.” The main takeaway, as ever, as he put it in a header of a chapter: “Avoid the Handshake Whenever Possible.” Trump at times marveled at the people who don’t see this the way he does.</p>
-<p>Like Bill Clinton. “Clinton was shaking hands with 500 or 600 people,” he told Rivera toward the end of Clinton’s second term. “He then got into the back of the presidential limo, grabs a sandwich and he eats it, and no problem. I wish I could be like that. I just can’t.” And he seldom missed an opportunity to say he wasn’t wrong. “Statistically, I’ve been proven right. Many studies have found that you catch colds and who knows what else from shaking hands,” he told Playboy in 2004. “It’s a medical fact,” he said in Rich. “A lot of people are agreeing with me,” he once told Blitzer. MOST READ David Perdue waves while speaking during a December 2020 rally in Augusta, Ga. Trump-backed former Sen. David Perdue will announce primary bid against Georgia governor this week From ‘Huckleberry Capone’ to ‘Turd Blossom’: A History of White House Nicknames Why the threat to Roe may not save Democrats in 2022 Bob Dole, longtime Senate leader and 1996 GOP presidential nominee, dies at 98 ‘A real fight for our existence’: Massachusetts GOP spirals in Baker exit In October of 2014, during the Ebola outbreak centered in West Africa, Trump took to Twitter: “Something very important, and indeed society changing, may come out of the Ebola epidemic that will be a very good thing: NO SHAKING HANDS!” Eight and a half months later, of course, he came down that escalator to announce he was launching a run for the White House. He was (however reluctantly) ready to shake some hands. His was the Purell presidency well before this pandemic. Lots and lots of handwashing near the Oval. Wipes served with his steak and two scoops. His body man’s unsparing squirts of hand sanitizer. But he has done, too, what he said he would do, all the way back in 1999. Politicians have to shake hands. And from Vladimir Putin to Kim Jong Un, from Emmanuel Macron to Justin Trudeau, Trump as the handshaking president has made news, made history, made … people uncomfortable. And through the past few months and weeks, as the coronavirus continued to get worse and Trump continued to insist that it wasn’t, he kept shaking hands. With supporters at Mar-a-Lago. With tornado victims in Tennessee. With audience members in Scranton at a Fox News town hall. “I’ll be shaking hands with people—and they want to say hello and hug you and kiss you—I don’t care,” he said March 5. “You are shaking a lot of hands today and taking close-one pictures,” a reporter said to Trump on March 6. “Are you protecting yourself at all?” “No,” he answered. “Not at all.” “Why are you shaking hands, sir?” he was asked just this past Saturday. “Because it almost becomes a habit,” Trump said. He offered, maybe to himself, that he used to be “a non-handshaker, for the most part.” Eventually, though, he granted that people are “thinking about it more and more.” Even Trump. Again. Blair, the Trump biographer, told me she heard during Monday’s news conference an echo of the language of the germaphobe of old. “It washes through,” the president said of the eventual end of the outbreak. He acknowledged that “other people don’t like that term,” but Trump went ahead, anyway, and repeated it. “It washes through.”</p></div>
-<a href="https://www.politico.com/news/magazine/2020/03/18/coronavirus-gave-trump-the-handshake-free-world-he-always-wanted-134467" class="source">Continue reading</p></a>  
-        </div></div></div>
-          </div>
+      <div class="col quote-two">
+        <div class="quote-info-wrapper">
+          <p class="date">Campaign launch rally, June 2015</p>
+          <p class="topic">Border Control</p>
         </div>
-
-<!-- Modal Two -->
-<div id="modal2" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-two"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        I will build a great, great wall on our southern border, and I will have Mexico pay for that wall. Mark my words.
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Border Control</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>Campaign launch rally, June 2015</p>
-          <div class="article">
-          <p>When he launched his campaign, Donald Trump argued that he would force Mexico to pay for a border wall. Now he says he “obviously” didn’t mean it. “I would build a great wall, and nobody builds walls better than me, believe me, and I’ll build them very inexpensively, I will build a great, great wall on our southern border. And I will have Mexico pay for that wall,” Trump said in his June 16, 2015 speech at Trump Tower. “Mark my words.” Like many of the claims in that speech, Trump did not offer specifics. But as the campaign went on, he said he would find the money by reducing the trade deficit (that wouldn’t really work), convincing Mexico to pay with clever deal-making, forcing it to pay by blocking wire transfers and visas, increasing visa fees on Mexican citizens or building the wall first and convincing Mexico to reimburse the U.S.</p>
-          <p>In 2016, Trump even said specifically that Mexico would be compelled to give the U.S. a “one-time payment” of $5 to 10 billion for the wall, both in a memo sent to reporters and in his campaign platform. But as he prepared to fly to the southern border on Thursday, Trump changed his tune, claiming, falsely, that he never said that Mexico would pay for the border wall and that he never meant that the country would literally hand the U.S. money for the wall.</p>
-          <p>“When during the campaign, I would say ‘Mexico is going to pay for it,’ obviously, I never said this, and I never meant they’re gonna write out a check, I said they’re going to pay for it. They are,” Trump said Again, Trump did say Mexico would pay for the wall, and he did say that it would hand the U.S. money for it. Trump’s latest comment about Mexico paying for the wall came just hours after White House strategic communications director Mercedes Schlapp said in a CNN interview that U.S. taxpayers will foot the bill for the wall. “Yes. And you know what else taxpayers are paying for? The financial burden of this illegal immigration,” Schlapp said Wednesday in response to a question about whether Americans were paying for the wall.</p>
-          <p>Trump’s statement also comes amid a partial government shutdown designed to coerce House Democrats into voting for $5.7 billion for a wall or “steel barrier” on the southern border. As president, Trump has argued that Mexico will pay for the wall indirectly through the U.S. Mexico Canada Agreement, which has not been ratified. However, experts say that the new deal doesn’t have any provisions to use tariff funds to build a wall and that Mexico would never agree to the treaty if it did. “That’s not the way trade agreements work,” Welles Orr, who worked on the original NAFTA agreement as the Assistant U.S. Trade Representative for Congressional Affairs under George H.W. Bush, told TIME. “Tariffs that are collected by the U.S. Treasury would fund the U.S. Treasury.” The claim that Mexico would pay for the wall indirectly is at odds with the Trump campaign’s most specific descriptions of how it would work. In a two-page memo released to the Washington Post and other outlets on March 31, 2016, Trump presented a detailed plan on how to “compel Mexico to pay for the wall.” This plan would include including implementing new trade tariffs, cancelling visas and increasing visa fees. The memo said the first step would be to block Mexican nationals who are in the U.S., legally and illegally, from wiring money back to Mexico. Trump wrote that this would prevent about $24 billion from flowing into Mexico.</p>
-          <p>“It’s an easy decision for Mexico. Make a one-time payment of $5 – $10 billion to ensure that $24 billion continues to flow into their country year after year,” the memo said.Trump’s campaign platform also said that the U.S. would take multiple steps to force Mexico to pay for the wall. Besides impounding remittances, the platform said that as president, he would would also increase fees for visas and border crossing cards, as well as fees at border entries.“We will not be taken advantage of anymore,” the platform concluded. Trump had also previously suggested other ways that Mexico could pay for the wall. In an April 2015 tweet, Trump wrote that the U.S. deduct the cost of the wall “from Mexican foreign aid.”</p></div>
-          <a href="https://time.com/5499391/donald-trump-border-wall-mexico-pay/" class="source">Continue reading</p></a>   
-        </div></div></div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_two.jpeg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          I will build a great, great wall on our southern border, and I will
+          have Mexico pay for that wall. Mark my words.
+        </h2>
+        <a href="#modal2"><button>Help The Wall Project</button></a>
       </div>
-    </div>
 
-<!-- Modal Three -->
-<div id="modal3" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-three"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        Do you believe in punishment for abortion – yes or no – as a principle?
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Abortion</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>SNBC, March 2016</p>
-          <div class="article"><p>Women who have abortions should be punished if the practice were illegal, Republican presidential frontrunner Donald Trump said on Wednesday, before retracting his claim amid an outcry. Trump, who has held opposing positions on the abortion in the past, said women should receive “some form of punishment” if it were banned in the US. He was unable to say whether he believed the punishment should be a small fine or a long prison sentence.</p>
-<p>The remarks prompted an outcry from all quarters, and once again underscored his poor approval ratings among women. The Democratic frontrunner, Hillary Clinton, decribed the comments as “horrific and telling”. Anti-abortion campaigners, who focus their efforts on punishing those who carry out abortions, distanced themselves from the remarks. Amid the storm, Trump issued a swift clarification of the comments. His position “had not changed”, he said, despite going on to fully recant the earlier statements he made to interviewer Chris Matthews on MSNBC. The latest Trump conflagration began during the taping of a town hall event, when Matthews asked him to define his “pro-life” stance and assertions that abortion should be banned.</p>
-<ul><p>
-“Do you believe in punishment for abortion – yes or no – as a principle,” asked Matthews.<br>
-“The answer is there has to be some form of punishment,” said Trump.<br>
-“For the woman?” Matthews said.<br>
-“Yeah, there has to be some form,” Trump replied.<br>
-“Ten cents, 10 years, what,” Matthews asked again, pressing.<br>
-“That I don’t know,” said Trump.<br>
-</p></ul>
-<p>Trump’s hazy stance on abortion ‘punishment’ The 90-second exchange inflamed Democratic pro-choice advocates, Republicans who have criticized Trump for flip-flopping on the issue, and anti-abortion advocates.In a 1999 interview, Trump described himself as “pro-choice in every respect”, and also said he would not “ban abortion” if he was ever elected president. But his position as a presidential candidate has changed starkly. Trump later tried to clarify his position in a statement. Donald Trump presidential campaigning, De Pere, Wisconsin, America - 30 Mar 2016<br>Mandatory Credit: Photo by ddp USA/REX/Shutterstock (5621683i) Republican presidential candidate Donald Trump waves goodbye to the crowd during his campaign stop at St. Norbert College 'No hate in our state': undercover protesters take on Trump in WisconsinHowever, he seemed to acknowledge that the establishment of any anti-abortion law would fall to Congress or state legislatures.</p>
-<p>“If Congress were to pass legislation making abortion illegal and the federal courts upheld this legislation, or any state were permitted to ban abortion under state and federal law, the doctor or any other person performing this illegal act upon a woman would be held legally responsible, not the woman. The woman is a victim in this case as is the life in her womb. My position has not changed – like Ronald Reagan, I am pro-life with exceptions,” the statement said.</p></div>
-<a href="https://www.theguardian.com/us-news/2016/mar/30/donald-trump-women-abortions-punishment" class="source">Continue reading</p></a>   
-        </div></div></div>
+      <div class="col quote-three">
+        <div class="quote-info-wrapper">
+          <p class="date">SNBC, March 2016</p>
+          <p class="topic">Abortion</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_one.jpg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          Do you believe in punishment for abortion – yes or no – as a
+          principle?
+        </h2>
+        <a href="#modal3"><button>#KeepTheBaby</button></a>
       </div>
-    </div>
 
-<!-- Modal Four -->
-<div id="modal4" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-four"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        When you see the other side chopping off heads, waterboarding doesn't sound very severe. 
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Terrorism</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>This Week with George Stephanopoulos, February 2016</p>
-          <div class="article"><p>Donald Trump opened the door to torturing terrorism suspects if he's elected president, telling ABC News Sunday that waterboarding "doesn't sound very severe" given the barbarism of ISIS. Here's what Trump said in a telephone interview with ABC's Jonathan Karl.
+      <div class="col quote-four">
+        <div class="quote-info-wrapper">
+          <p class="date">
+            This Week with George Stephanopoulos, February 2016
           </p>
-<ul><p>
-“JON KARL: Would President Trump authorize waterboarding and other enhanced interrogation techniques, even torture?"<br>
-“DONALD TRUMP: I would be inclined to be very strong. When people are chopping off other people's heads and then we're worried about waterboarding and we can't because ... I have no doubt that that works. I have absolutely no doubt."<br>
-“JON KARL: So you'd bring back water-boarding?"<br>
-“DONALD TRUMP: You mentioned waterboarding, which was such a big subject. I haven't heard that term in a year now, because when you see the other side chopping off heads, waterboarding doesn't sound very severe."<br>
-</p></ul>
-<p>In his first week in office in 2009, President Barack Obama banned the CIA's use of waterboarding and other brutal treatment of detainees, vowing that the United States "will not torture."
-  A Senate Intelligence Committee report released in December 2014 revealed gory details of the CIA's treatment of detainees, including the insertion of hummus into one prisoner's rectum. The committee concluded that none of it worked.
-  "The committee finds, based on a review of CIA interrogation records, that the use of the CIA's enhanced interrogation techniques was not an effective means of obtaining accurate information or gaining detainee cooperation," the panel wrote.
-  </p>
-<p>Trump is the leader in GOP presidential primary polls, including a Wall Street Journal/NBC News survey released Sunday that shows him with 19 percent backing, compared with 15 percent for Wisconsin Gov. Scott Walker and 14 percent for former Florida Gov. Jeb Bush.
-  The aggressive stance on torture probably won't hurt Trump in the Republican primary — and it may help him. In December 2014, 73 percent of Republicans told CBS News pollsters that enhanced interrogation techniques are sometimes justified.
-sxz </p></div>
-<a href="https://www.vox.com/2015/8/2/9086575/donald-trump-waterboarding-torture" class="source">Continue reading</p></a>   
-        </div></div></div>
+          <p class="topic">Terrorism</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald_four.jpeg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          When you see the other side chopping off heads, waterboarding
+          doesn't sound very severe.
+        </h2>
+        <a href="#modal4"><button>View Top Ranked Terrorists</button></a>
+      </div>
+
+      <div class="col quote-five">
+        <div class="quote-info-wrapper">
+          <p class="date">Playboy, October 2004</p>
+          <p class="topic">Shaking Hands</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-six.webp" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          The concept of shaking hands is absolutely terrible, and
+          statistically I've been proven right.
+        </h2>
+        <a href="#modal5"><button>Shaking Hands Is Bad</button></a>
+      </div>
+
+      <div class="col quote-six">
+        <div class="quote-info-wrapper">
+          <p class="date">Twitter, September 2013</p>
+          <p class="topic">His Intelligence</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-five.jpg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          Sorry losers and haters, but my IQ is one of the highest - and you
+          all know it! Please don't feel so stupid or insecure, it's not your
+          fault.
+        </h2>
+        <a href="#modal6"><button>Question My Intelligence</button></a>
+      </div>
+
+      <div class="col quote-seven">
+        <div class="quote-info-wrapper">
+          <p class="date">TIME, April 2011</p>
+          <p class="topic">Financial Success</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-nine.jpg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          I look very much forward to showing my financials, because they are huge.
+        </h2>
+        <a href="#modal7"><button>Review My Taxes</button></a>
+      </div>
+
+      <div class="col quote-eight">
+        <div class="quote-info-wrapper">
+          <p class="date">Trump: How To Get Rich, 2004</p>
+          <p class="topic">Romance</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-eight.jpg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be expected.
+        </h2>
+        <a href="#modal8"><button>Check Out My Ex Wives</button></a>
+      </div>
+
+      <div class="col quote-nine">
+        <div class="quote-info-wrapper">
+          <p class="date">The View, 2006</p>
+          <p class="topic">Family...</p>
+        </div>
+        <!--<div class="profile"><img src="https://ryancangela.com/wp-content/uploads/2021/12/donald-seven.jpg" src="photo" style="width:100%"></div>-->
+        <h2 class="sayings">
+          She does have a very nice figure... If [Ivanka] weren't my daughter, perhaps I'd be dating her.
+        </h2>
+        <a href="#modal9"><button>See My Other Daughter</button></a>
+      </div>
+
+
+
+    </div>
+
+
+    <!-- Modal One -->
+    <div id="modal1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-one"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                The concept of shaking hands is absolutely terrible, and
+                statistically I've been proven right.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Shaking Hands</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>Playboy, October 2004</p>
+              <div class="article">
+                <p>It was surprisingly hard for Trump to let go. He had spent days—weeks—blithely, practically defiantly
+                  modeling precisely what not to do during this burgeoning, life-altering crisis of a pandemic. He
+                  mingled with dignitaries at dinner. He convened news conferences with officials packed tighter than
+                  class pictures. And he shook hands like he’d never heard a single warning about how the coronavirus
+                  spreads. Then came Monday. Along with his noted change in tone at an appropriately sober briefing at
+                  the White House, the president finally seemed to heed the bare-minimum counsel of public health
+                  professionals—and refrained from pressing any flesh. What was remarkable about Trump’s obstinacy to
+                  that point wasn’t that he was flouting elite experts’ advice—more or less par for the course—but
+                  rather that he wasn’t jumping at this opportunity to revert to one of his strongest and
+                  longest-standing prepolitics precepts. For most of his life, he didn’t just shun shaking hands. He
+                  detested shaking hands. And he made this bugaboo of his nothing if not characteristically explicit. A
+                  self-described “germaphobe,” “germ freak” and “clean-hands freak,” Trump over the years has called the
+                  practice of the handshake “barbaric,” “disgusting,” “very, very terrible” and “one of the curses of
+                  American society.” He so stubbornly kept shaking hands, though, in the estimation of people who know
+                  him well, even as the spread of the virus started to spike, in an instinctual effort to avoid any
+                  implicit admission that he whiffed on preparedness or miscalculated the virus’ severity and to project
+                  as well his preferred patina of sanguine vigor and insusceptibility. Symbolism superseded safety. “He
+                  went from being a germaphobe to being a germaholic,” former Trump Organization executive vice
+                  president Louise Sunshine told me. “It’s a subconscious, if not conscious, way of saying, ‘Relax!
+                  Everything’s OK!’ Because if everything is not OK, he was wrong, and he can never be wrong,” added
+                  Alan Marcus, a former Trump publicist. “It’s more important for him to be right than to do right.”
+                  “What I’ve been thinking on this issue of one of the more famous germaphobes in the world sort of
+                  deliberately shaking hands recently,” Trump biographer Gwenda Blair said, “is that it seemed to have
+                  been some kind of show of strength—excuse me, of presumed strength—and invulnerability, a way to
+                  telegraph that he is not cowed, not scared, not going to be intimidated.” In the Rose Garden last
+                  Friday, for instance, when he declared a national emergency, “two very big words,” as he put it, Trump
+                  also nonetheless shook a bunch of hands. He shook hands with the CEO of Walmart. He shook hands with
+                  the CEO of Target. He shook hands with the CEO of Quest Diagnostics.</p>
+                <p>He shook hands with the president of Walgreens. He shook hands with a vice president of CVS. And he
+                  tried to shake hands with an executive from the health care company called LHC Group. Bruce
+                  Greenstein, however, left him hanging, instead offering a best-practices elbow bump. Trump responded
+                  with a slight grimace, a sucking in of air, and an awkward attempt to touch elbows. “Practice that,”
+                  Greenstein said. “OK. I like that. That’s good,” Trump said—unconvincingly. But by Monday, there he
+                  was, in the White House, not shaking any hands, and not bumping any elbows, either, cringeworthy or
+                  otherwise. People keyed in on his dire words. “It’s bad. It’s bad.” But the absence of the simple
+                  gestures said just as much. All of the conspicuous handshaking, and in the face of a deadly disease no
+                  less, really was quite something to behold for everybody who’s known Trump for a long time, or who has
+                  been watching Trump for a long time, or who simply has done the requisite reading. “I’ve always had
+                  very strong feelings about cleanliness. I’m constantly washing my hands, and it wouldn’t bother me if
+                  I never had to shake hands with a well-meaning stranger again,” he said in Surviving at the Top, his
+                  book that was published in 1990, likening himself to the eccentric Howard Hughes on account of their
+                  shared “aversion to germs.” “You have germaphobia,” the shock jock Howard Stern said to him on his
+                  show in 1993. “True?” “I do,” Trump said. He was “preoccupied by a fear of communicable disease,”
+                  according to Jack O’Donnell, a former Trump casino executive in Atlantic City. As much as Trump needed
+                  the energy of the crowds, he loathed the actual reality of close-one-proximity intermingling, gamblers
+                  clamoring to shake his hand or merely to touch him for luck. Once ensconced again in an office, he was
+                  sure to hustle to a bathroom to lather his hands with soap. “The first thing he did,” O’Donnell once
+                  told me. “I feel much better after I thoroughly wash my hands,” he said in The Art of the Comeback in
+                  1997. In 1999, when Trump toyed with the idea of running for president, his anti-handshake posture
+                  briefly became a topic of conversation among the talking heads on TV. “How are you going to run for
+                  office and not press the flesh?” Stone Phillips asked him on NBC. “Look,” Trump said, “if I have to do
+                  it, I do it.” “If you’re a politician at the rope line,” Wolf Blitzer pointed out on CNN, “you’ve got
+                  no choice.” Trump mostly conceded. “I guess if you’re a politician …” It didn’t mean he liked it.
+                  Before he incorporated into his speeches and rallies as president a stock bit about “tough,” “burly”
+                  men crying when they see him or the Oval Office while calling him “sir,” Trump talked regularly about
+                  men not just wanting to shake his hand but specifically emerging from bathrooms in restaurants to do
+                  it. “Almost nothing bothers me more than sitting down for dinner at a beautiful restaurant and having
+                  a man you’ve just seen leaving the men’s room, perhaps not even having washed his hands, spot you and
+                  run over to your table with a warm and friendly face, hand outstretched,” he said in Comeback. “The
+                  other night I was having dinner at a beautiful restaurant, and I see a guy coming out of a men’s
+                  room,” he explained to Geraldo Rivera on CNBC in 1999. “And he said, ‘Mr. Trump, I’m a huge fan of
+                  yours.’ And he puts out his hand. And, literally, I’m eating a roll …” “The good news is,” he said on
+                  CNN to Blitzer, unspooling the same tale two days later, “you don’t eat that roll.” “I was a little
+                  overweight at the time,” he said in 2004 in his book called How to Get Rich, “and knew that if I shook
+                  his hand I wouldn’t eat my meal—and that would be a good thing.” The main takeaway, as ever, as he put
+                  it in a header of a chapter: “Avoid the Handshake Whenever Possible.” Trump at times marveled at the
+                  people who don’t see this the way he does.</p>
+                <p>Like Bill Clinton. “Clinton was shaking hands with 500 or 600 people,” he told Rivera toward the end
+                  of Clinton’s second term. “He then got into the back of the presidential limo, grabs a sandwich and he
+                  eats it, and no problem. I wish I could be like that. I just can’t.” And he seldom missed an
+                  opportunity to say he wasn’t wrong. “Statistically, I’ve been proven right. Many studies have found
+                  that you catch colds and who knows what else from shaking hands,” he told Playboy in 2004. “It’s a
+                  medical fact,” he said in Rich. “A lot of people are agreeing with me,” he once told Blitzer. MOST
+                  READ David Perdue waves while speaking during a December 2020 rally in Augusta, Ga. Trump-backed
+                  former Sen. David Perdue will announce primary bid against Georgia governor this week From
+                  ‘Huckleberry Capone’ to ‘Turd Blossom’: A History of White House Nicknames Why the threat to Roe may
+                  not save Democrats in 2022 Bob Dole, longtime Senate leader and 1996 GOP presidential nominee, dies at
+                  98 ‘A real fight for our existence’: Massachusetts GOP spirals in Baker exit In October of 2014,
+                  during the Ebola outbreak centered in West Africa, Trump took to Twitter: “Something very important,
+                  and indeed society changing, may come out of the Ebola epidemic that will be a very good thing: NO
+                  SHAKING HANDS!” Eight and a half months later, of course, he came down that escalator to announce he
+                  was launching a run for the White House. He was (however reluctantly) ready to shake some hands. His
+                  was the Purell presidency well before this pandemic. Lots and lots of handwashing near the Oval. Wipes
+                  served with his steak and two scoops. His body man’s unsparing squirts of hand sanitizer. But he has
+                  done, too, what he said he would do, all the way back in 1999. Politicians have to shake hands. And
+                  from Vladimir Putin to Kim Jong Un, from Emmanuel Macron to Justin Trudeau, Trump as the handshaking
+                  president has made news, made history, made … people uncomfortable. And through the past few months
+                  and weeks, as the coronavirus continued to get worse and Trump continued to insist that it wasn’t, he
+                  kept shaking hands. With supporters at Mar-a-Lago. With tornado victims in Tennessee. With audience
+                  members in Scranton at a Fox News town hall. “I’ll be shaking hands with people—and they want to say
+                  hello and hug you and kiss you—I don’t care,” he said March 5. “You are shaking a lot of hands today
+                  and taking close-one pictures,” a reporter said to Trump on March 6. “Are you protecting yourself at
+                  all?” “No,” he answered. “Not at all.” “Why are you shaking hands, sir?” he was asked just this past
+                  Saturday. “Because it almost becomes a habit,” Trump said. He offered, maybe to himself, that he used
+                  to be “a non-handshaker, for the most part.” Eventually, though, he granted that people are “thinking
+                  about it more and more.” Even Trump. Again. Blair, the Trump biographer, told me she heard during
+                  Monday’s news conference an echo of the language of the germaphobe of old. “It washes through,” the
+                  president said of the eventual end of the outbreak. He acknowledged that “other people don’t like that
+                  term,” but Trump went ahead, anyway, and repeated it. “It washes through.”</p>
+              </div>
+              <a href="https://www.politico.com/news/magazine/2020/03/18/coronavirus-gave-trump-the-handshake-free-world-he-always-wanted-134467"
+                class="source">Continue reading</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Two -->
+    <div id="modal2" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-two"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                I will build a great, great wall on our southern border, and I will have Mexico pay for that wall. Mark
+                my words.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Border Control</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>Campaign launch rally, June 2015</p>
+              <div class="article">
+                <p>When he launched his campaign, Donald Trump argued that he would force Mexico to pay for a border
+                  wall. Now he says he “obviously” didn’t mean it. “I would build a great wall, and nobody builds walls
+                  better than me, believe me, and I’ll build them very inexpensively, I will build a great, great wall
+                  on our southern border. And I will have Mexico pay for that wall,” Trump said in his June 16, 2015
+                  speech at Trump Tower. “Mark my words.” Like many of the claims in that speech, Trump did not offer
+                  specifics. But as the campaign went on, he said he would find the money by reducing the trade deficit
+                  (that wouldn’t really work), convincing Mexico to pay with clever deal-making, forcing it to pay by
+                  blocking wire transfers and visas, increasing visa fees on Mexican citizens or building the wall first
+                  and convincing Mexico to reimburse the U.S.</p>
+                <p>In 2016, Trump even said specifically that Mexico would be compelled to give the U.S. a “one-time
+                  payment” of $5 to 10 billion for the wall, both in a memo sent to reporters and in his campaign
+                  platform. But as he prepared to fly to the southern border on Thursday, Trump changed his tune,
+                  claiming, falsely, that he never said that Mexico would pay for the border wall and that he never
+                  meant that the country would literally hand the U.S. money for the wall.</p>
+                <p>“When during the campaign, I would say ‘Mexico is going to pay for it,’ obviously, I never said this,
+                  and I never meant they’re gonna write out a check, I said they’re going to pay for it. They are,”
+                  Trump said Again, Trump did say Mexico would pay for the wall, and he did say that it would hand the
+                  U.S. money for it. Trump’s latest comment about Mexico paying for the wall came just hours after White
+                  House strategic communications director Mercedes Schlapp said in a CNN interview that U.S. taxpayers
+                  will foot the bill for the wall. “Yes. And you know what else taxpayers are paying for? The financial
+                  burden of this illegal immigration,” Schlapp said Wednesday in response to a question about whether
+                  Americans were paying for the wall.</p>
+                <p>Trump’s statement also comes amid a partial government shutdown designed to coerce House Democrats
+                  into voting for $5.7 billion for a wall or “steel barrier” on the southern border. As president, Trump
+                  has argued that Mexico will pay for the wall indirectly through the U.S. Mexico Canada Agreement,
+                  which has not been ratified. However, experts say that the new deal doesn’t have any provisions to use
+                  tariff funds to build a wall and that Mexico would never agree to the treaty if it did. “That’s not
+                  the way trade agreements work,” Welles Orr, who worked on the original NAFTA agreement as the
+                  Assistant U.S. Trade Representative for Congressional Affairs under George H.W. Bush, told TIME.
+                  “Tariffs that are collected by the U.S. Treasury would fund the U.S. Treasury.” The claim that Mexico
+                  would pay for the wall indirectly is at odds with the Trump campaign’s most specific descriptions of
+                  how it would work. In a two-page memo released to the Washington Post and other outlets on March 31,
+                  2016, Trump presented a detailed plan on how to “compel Mexico to pay for the wall.” This plan would
+                  include including implementing new trade tariffs, cancelling visas and increasing visa fees. The memo
+                  said the first step would be to block Mexican nationals who are in the U.S., legally and illegally,
+                  from wiring money back to Mexico. Trump wrote that this would prevent about $24 billion from flowing
+                  into Mexico.</p>
+                <p>“It’s an easy decision for Mexico. Make a one-time payment of $5 – $10 billion to ensure that $24
+                  billion continues to flow into their country year after year,” the memo said.Trump’s campaign platform
+                  also said that the U.S. would take multiple steps to force Mexico to pay for the wall. Besides
+                  impounding remittances, the platform said that as president, he would would also increase fees for
+                  visas and border crossing cards, as well as fees at border entries.“We will not be taken advantage of
+                  anymore,” the platform concluded. Trump had also previously suggested other ways that Mexico could pay
+                  for the wall. In an April 2015 tweet, Trump wrote that the U.S. deduct the cost of the wall “from
+                  Mexican foreign aid.”</p>
+              </div>
+              <a href="https://time.com/5499391/donald-trump-border-wall-mexico-pay/" class="source">Continue reading
+                </p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Three -->
+    <div id="modal3" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-three"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                Do you believe in punishment for abortion – yes or no – as a principle?
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Abortion</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>SNBC, March 2016</p>
+              <div class="article">
+                <p>Women who have abortions should be punished if the practice were illegal, Republican presidential
+                  frontrunner Donald Trump said on Wednesday, before retracting his claim amid an outcry. Trump, who has
+                  held opposing positions on the abortion in the past, said women should receive “some form of
+                  punishment” if it were banned in the US. He was unable to say whether he believed the punishment
+                  should be a small fine or a long prison sentence.</p>
+                <p>The remarks prompted an outcry from all quarters, and once again underscored his poor approval
+                  ratings among women. The Democratic frontrunner, Hillary Clinton, decribed the comments as “horrific
+                  and telling”. Anti-abortion campaigners, who focus their efforts on punishing those who carry out
+                  abortions, distanced themselves from the remarks. Amid the storm, Trump issued a swift clarification
+                  of the comments. His position “had not changed”, he said, despite going on to fully recant the earlier
+                  statements he made to interviewer Chris Matthews on MSNBC. The latest Trump conflagration began during
+                  the taping of a town hall event, when Matthews asked him to define his “pro-life” stance and
+                  assertions that abortion should be banned.</p>
+                <ul>
+                  <p>
+                    “Do you believe in punishment for abortion – yes or no – as a principle,” asked Matthews.<br>
+                    “The answer is there has to be some form of punishment,” said Trump.<br>
+                    “For the woman?” Matthews said.<br>
+                    “Yeah, there has to be some form,” Trump replied.<br>
+                    “Ten cents, 10 years, what,” Matthews asked again, pressing.<br>
+                    “That I don’t know,” said Trump.<br>
+                  </p>
+                </ul>
+                <p>Trump’s hazy stance on abortion ‘punishment’ The 90-second exchange inflamed Democratic pro-choice
+                  advocates, Republicans who have criticized Trump for flip-flopping on the issue, and anti-abortion
+                  advocates.In a 1999 interview, Trump described himself as “pro-choice in every respect”, and also said
+                  he would not “ban abortion” if he was ever elected president. But his position as a presidential
+                  candidate has changed starkly. Trump later tried to clarify his position in a statement. Donald Trump
+                  presidential campaigning, De Pere, Wisconsin, America - 30 Mar 2016<br>Mandatory Credit: Photo by ddp
+                  USA/REX/Shutterstock (5621683i) Republican presidential candidate Donald Trump waves goodbye to the
+                  crowd during his campaign stop at St. Norbert College 'No hate in our state': undercover protesters
+                  take on Trump in WisconsinHowever, he seemed to acknowledge that the establishment of any
+                  anti-abortion law would fall to Congress or state legislatures.</p>
+                <p>“If Congress were to pass legislation making abortion illegal and the federal courts upheld this
+                  legislation, or any state were permitted to ban abortion under state and federal law, the doctor or
+                  any other person performing this illegal act upon a woman would be held legally responsible, not the
+                  woman. The woman is a victim in this case as is the life in her womb. My position has not changed –
+                  like Ronald Reagan, I am pro-life with exceptions,” the statement said.</p>
+              </div>
+              <a href="https://www.theguardian.com/us-news/2016/mar/30/donald-trump-women-abortions-punishment"
+                class="source">Continue reading</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Four -->
+    <div id="modal4" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-four"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                When you see the other side chopping off heads, waterboarding doesn't sound very severe.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Terrorism</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>This Week with George Stephanopoulos,
+                February 2016</p>
+              <div class="article">
+                <p>Donald Trump opened the door to torturing terrorism suspects if he's elected president, telling ABC
+                  News Sunday that waterboarding "doesn't sound very severe" given the barbarism of ISIS. Here's what
+                  Trump said in a telephone interview with ABC's Jonathan Karl.
+                </p>
+                <ul>
+                  <p>
+                    “JON KARL: Would President Trump authorize waterboarding and other enhanced interrogation
+                    techniques, even torture?"<br>
+                    “DONALD TRUMP: I would be inclined to be very strong. When people are chopping off other people's
+                    heads and then we're worried about waterboarding and we can't because ... I have no doubt that that
+                    works. I have absolutely no doubt."<br>
+                    “JON KARL: So you'd bring back water-boarding?"<br>
+                    “DONALD TRUMP: You mentioned waterboarding, which was such a big subject. I haven't heard that term
+                    in a year now, because when you see the other side chopping off heads, waterboarding doesn't sound
+                    very severe."<br>
+                  </p>
+                </ul>
+                <p>In his first week in office in 2009, President Barack Obama banned the CIA's use of waterboarding and
+                  other brutal treatment of detainees, vowing that the United States "will not torture."
+                  A Senate Intelligence Committee report released in December 2014 revealed gory details of the CIA's
+                  treatment of detainees, including the insertion of hummus into one prisoner's rectum. The committee
+                  concluded that none of it worked.
+                  "The committee finds, based on a review of CIA interrogation records, that the use of the CIA's
+                  enhanced interrogation techniques was not an effective means of obtaining accurate information or
+                  gaining detainee cooperation," the panel wrote.
+                </p>
+                <p>Trump is the leader in GOP presidential primary polls, including a Wall Street Journal/NBC News
+                  survey released Sunday that shows him with 19 percent backing, compared with 15 percent for Wisconsin
+                  Gov. Scott Walker and 14 percent for former Florida Gov. Jeb Bush.
+                  The aggressive stance on torture probably won't hurt Trump in the Republican primary — and it may help
+                  him. In December 2014, 73 percent of Republicans told CBS News pollsters that enhanced interrogation
+                  techniques are sometimes justified.
+                  sxz </p>
+              </div>
+              <a href="https://www.vox.com/2015/8/2/9086575/donald-trump-waterboarding-torture" class="source">Continue
+                reading</p></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
 
 
     <!-- Modal Five -->
-<div id="modal5" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-five"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        The concept of shaking hands is absolutely terrible, and statistically I've been proven right. 
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Shaking Hands</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>Playboy, October 2004</p>
-          <div class="article"><p>Somehow it’s fitting that the Friars Club, the venerable brotherhood of shtick men, has chosen to roast Donald Trump at its centennial celebration this month. Few billionaires have provided as many punch lines as the flamboyant real estate developer with the bombproof comb-over and inexcusable tastes. Even with the gold-plated success of The Apprentice, “the hottest reality show in the history of TV,” as Trump likes to call it, it’s hard not to laugh at the high-camp spectacle that is the Donald’s life.
-            But if the current Trump renaissance has taught us anything, it’s that the joke is on the rest of us. Even if you can’t stand his pink ties or squinty I’m-so-great delivery, you have to admire Trump for staying on top as long as he has. He nearly went bankrupt during the early-1990s real estate slump, only to fight back with more cash than ever. He sucked it up through tacky marriages and public divorces, only to find romance with Slovenian model Melania Knauss, his fiancée. And in New York City, where Trump bashing had become as common as turbaned cabbies, he now outhits even the Yankees on the hometown popularity scale.
-          <p>It’s hard to say whether The Apprentice made him cool again or whether Trump finally brought cool to the hot-tubbing, spitswapping squalor of “unscripted” television. More than 20 million people watched the original series each week, with twice that many tuning in for at least part of the finale, when Trump hired cigar salesman Bill Rancic to help construct a 90-story Chicago tower. By the end, The Apprentice had become more than just a TV show. It was required viewing at such places as Harvard Business School and the Wharton school of business, and more than a million people applied to take part in round two, which airs this fall.
-            Not that being a Hollywood titan satisfies Trump, who just keeps moving and building, stamping his name in gold wherever he goes. His latest book, How to Get Rich, is his fifth national best-seller, and his latest real estate deals are bringing that special brand of Trump splendor to the Caribbean, Brazil and even Korea.
-            <p>Born in Queens in 1946, Trump grew up learning to master the universe from his father, Fred, who accumulated millions by selling moderately priced housing to half of Brooklyn and Queens. Not long after Trump the younger crossed the bridge into Manhattan, his behind-the-scenes exploits rivaled the spectacle of his gleaming skyscrapers. His marriages to Ivana and Marla Maples fed a generation of gossip columnists. And even with his current popularity, tabloids love to find chinks in his armor: The casinos are failing! The stockholders are angry! The billions don’t exist!</p>
-            Trump met with journalist David Hochman over the course of a few days at Trump Tower in Manhattan, midway through the second Apprentice shoot. Hochman reports: “Carving big chunks of time out of his busy schedule isn’t easy. During one two-hour interview, his executive assistant, Rhona Graff-Riccio, logged more than 50 phone messages. The only call Trump took was from his son Eric, one of his four children. Trump says he always takes his kids’ calls. Despite a harried production schedule and a docket full of meetings, public events and charity functions—as well as various interruptions from Trump Organization honchos such as Carolyn Kepcher and other unwitting stars of The Apprentice—Trump was focused, enthusiastic, open and direct. He was even gracious enough to leave me with a lapel pin featuring the catchphrase of the year: ‘You’re fired!’”
-          </p>  
+    <div id="modal5" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-five"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                The concept of shaking hands is absolutely terrible, and statistically I've been proven right.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Shaking Hands</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>Playboy, October 2004</p>
+              <div class="article">
+                <p>Somehow it’s fitting that the Friars Club, the venerable brotherhood of shtick men, has chosen to
+                  roast Donald Trump at its centennial celebration this month. Few billionaires have provided as many
+                  punch lines as the flamboyant real estate developer with the bombproof comb-over and inexcusable
+                  tastes. Even with the gold-plated success of The Apprentice, “the hottest reality show in the history
+                  of TV,” as Trump likes to call it, it’s hard not to laugh at the high-camp spectacle that is the
+                  Donald’s life.
+                  But if the current Trump renaissance has taught us anything, it’s that the joke is on the rest of us.
+                  Even if you can’t stand his pink ties or squinty I’m-so-great delivery, you have to admire Trump for
+                  staying on top as long as he has. He nearly went bankrupt during the early-1990s real estate slump,
+                  only to fight back with more cash than ever. He sucked it up through tacky marriages and public
+                  divorces, only to find romance with Slovenian model Melania Knauss, his fiancée. And in New York City,
+                  where Trump bashing had become as common as turbaned cabbies, he now outhits even the Yankees on the
+                  hometown popularity scale.
+                <p>It’s hard to say whether The Apprentice made him cool again or whether Trump finally brought cool to
+                  the hot-tubbing, spitswapping squalor of “unscripted” television. More than 20 million people watched
+                  the original series each week, with twice that many tuning in for at least part of the finale, when
+                  Trump hired cigar salesman Bill Rancic to help construct a 90-story Chicago tower. By the end, The
+                  Apprentice had become more than just a TV show. It was required viewing at such places as Harvard
+                  Business School and the Wharton school of business, and more than a million people applied to take
+                  part in round two, which airs this fall.
+                  Not that being a Hollywood titan satisfies Trump, who just keeps moving and building, stamping his
+                  name in gold wherever he goes. His latest book, How to Get Rich, is his fifth national best-seller,
+                  and his latest real estate deals are bringing that special brand of Trump splendor to the Caribbean,
+                  Brazil and even Korea.</p>
+                <p>Born in Queens in 1946, Trump grew up learning to master the universe from his father, Fred, who
+                  accumulated millions by selling moderately priced housing to half of Brooklyn and Queens. Not long
+                  after Trump the younger crossed the bridge into Manhattan, his behind-the-scenes exploits rivaled the
+                  spectacle of his gleaming skyscrapers. His marriages to Ivana and Marla Maples fed a generation of
+                  gossip columnists. And even with his current popularity, tabloids love to find chinks in his armor:
+                  The casinos are failing! The stockholders are angry! The billions don’t exist!</p>
+                <p>Trump met with journalist David Hochman over the course of a few days at Trump Tower in Manhattan,
+                  midway through the second Apprentice shoot. Hochman reports: “Carving big chunks of time out of his
+                  busy schedule isn’t easy. During one two-hour interview, his executive assistant, Rhona Graff-Riccio,
+                  logged more than 50 phone messages. The only call Trump took was from his son Eric, one of his four
+                  children. Trump says he always takes his kids’ calls. Despite a harried production schedule and a
+                  docket full of meetings, public events and charity functions—as well as various interruptions from
+                  Trump Organization honchos such as Carolyn Kepcher and other unwitting stars of The Apprentice—Trump
+                  was focused, enthusiastic, open and direct. He was even gracious enough to leave me with a lapel pin
+                  featuring the catchphrase of the year: ‘You’re fired!’”</p>
+
+              </div>
+              <a href="https://www.playboy.com/read/donald-trump-interview" class="source">Continue reading</p></a>
+            </div>
           </div>
-<a href="https://www.playboy.com/read/donald-trump-interview" class="source">Continue reading</p></a>   
-        </div></div></div>
+        </div>
       </div>
     </div>
 
 
-      <!-- Modal Six -->
-<div id="modal6" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-six"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        Sorry losers and haters, but my IQ is one of the highest - and you all know it! Please don't feel so stupid or insecure, it's not your fault.
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>His Intelligence</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>Twitter, September 2013</p>
-          <div class="article"><p>People who know Trump suspect his IQ obsession stems in part from a desire to project an image of success, despite scattered business failings and allegations of incompetence.<p>
-            <p>
-              It was January 2004 and Donald Trump was on the “Today Show” to promote a new reality TV series called “The Apprentice.”
-              Almost immediately after the interview began, Trump started bragging about the unparalleled intellect of the contestants who would compete for a job at one of his companies.
-              “These are 16 brilliant people. I mean, they have close to 200 IQs, all of them,” he told host Matt Lauer. “And some may be beautiful and some may not be beautiful. But everybody has an incredible brain.”              
-              It wasn’t the first time Trump fixated on IQ as a measure of a person’s worth — or, as is frequently the case, worthlessness. And it wouldn’t be the last. Fifteen years later, Trump, now president of the United States, still uses IQ as a shorthand for intelligence, dividing the people in his orbit into winners and losers.
-            </p>
-            <p>
-              In private, according to interviews with a half-dozen people close to him, Trump frequently asserts that people he likes have genius-level IQs. At various points during his presidency, he’s told aides that Lockheed Martin CEO Marillyn Hewson and Apple CEO Tim Cook are high-IQ individuals, for example, former White House officials said. Trump has also dubbed himself a “very stable genius” on multiple occasions. And the president is quick to accuse his political enemies of having low IQs, as he did when he repeated North Korean dictator Kim Jong Un’s criticism of former Vice President Joe Biden, one of his leading Democratic challengers.
-              “I was actually sticking up for Sleepy Joe Biden while on foreign soil. Kim Jong Un called him a ‘low IQ idiot,’ and many other things, whereas I related the quote of Chairman Kim as a much softer ‘low IQ individual,’” Trump said Tuesday after the Biden campaign criticized him for tweeting during his trip to Japan that he smiled when Kim insulted Biden’s intelligence.              
-              While the exact reason for Trump’s IQ obsession is difficult to nail down, people who know him suspect it stems in part from his desire to project an image of success and competence, despite scattered business failings and repeated allegations from critics that he’s incompetent. Trump is also known for being thin-skinned. He often fires back at anyone who criticizes him with a barrage of insults, while simultaneously building himself up.
-            </p> 
-            <p>“I don’t think you have to put him on the couch to see that someone who has such a consistent need to build himself up and belittle everyone else must have some problems with self-esteem,” said Trump biographer Gwenda Blair, who wrote a book about the Trump family. “It’s a lifelong theme for him.”
-              “Part of it comes from his insecurities about not being perceived as intelligent,” a former White House official added.              
-              In recent years, Trump has accused Rep. Maxine Waters (D-Calif.), actor Robert De Niro, Washington Post staffers, former President George W. Bush, comedian Jon Stewart, Republican strategist Rick Wilson, MSNBC host Mika Brzezinski, and Rick Perry, now his Energy secretary, of having low IQs. He once suggested he’d like to compare his IQ to that of then-Secretary of State Rex Tillerson, adding, “And I can tell you who is going to win.” He privately mocked former Attorney General Jeff Sessions’ intelligence, according to a former White House official. All the while, Trump has claimed his Cabinet has the highest IQ of any assembled in history.
-              “Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don't feel so stupid or insecure, it's not your fault,” Trump tweeted in 2013.
-              Just last week, the president again referred to himself as an “extremely stable genius,” and he has spent years insisting he has a high IQ score, though he has never revealed the exact number. When a Twitter critic challenged him in 2013 to prove his high IQ, Trump responded simply, “The highest, asshole!”
-            </p> 
+    <!-- Modal Six -->
+    <div id="modal6" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-six"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                Sorry losers and haters, but my IQ is one of the highest - and you all know it! Please don't feel so
+                stupid or insecure, it's not your fault.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>His Intelligence</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>Twitter, September 2013</p>
+              <div class="article">
+                <p>People who know Trump suspect his IQ obsession stems in part from a desire to project an image of
+                  success, despite scattered business failings and allegations of incompetence.
+                <p>
+                <p>
+                  It was January 2004 and Donald Trump was on the “Today Show” to promote a new reality TV series called
+                  “The Apprentice.”
+                  Almost immediately after the interview began, Trump started bragging about the unparalleled intellect
+                  of the contestants who would compete for a job at one of his companies.
+                  “These are 16 brilliant people. I mean, they have close to 200 IQs, all of them,” he told host Matt
+                  Lauer. “And some may be beautiful and some may not be beautiful. But everybody has an incredible
+                  brain.”
+                  It wasn’t the first time Trump fixated on IQ as a measure of a person’s worth — or, as is frequently
+                  the case, worthlessness. And it wouldn’t be the last. Fifteen years later, Trump, now president of the
+                  United States, still uses IQ as a shorthand for intelligence, dividing the people in his orbit into
+                  winners and losers.
+                </p>
+                <p>
+                  In private, according to interviews with a half-dozen people close to him, Trump frequently asserts
+                  that people he likes have genius-level IQs. At various points during his presidency, he’s told aides
+                  that Lockheed Martin CEO Marillyn Hewson and Apple CEO Tim Cook are high-IQ individuals, for example,
+                  former White House officials said. Trump has also dubbed himself a “very stable genius” on multiple
+                  occasions. And the president is quick to accuse his political enemies of having low IQs, as he did
+                  when he repeated North Korean dictator Kim Jong Un’s criticism of former Vice President Joe Biden, one
+                  of his leading Democratic challengers.
+                  “I was actually sticking up for Sleepy Joe Biden while on foreign soil. Kim Jong Un called him a ‘low
+                  IQ idiot,’ and many other things, whereas I related the quote of Chairman Kim as a much softer ‘low IQ
+                  individual,’” Trump said Tuesday after the Biden campaign criticized him for tweeting during his trip
+                  to Japan that he smiled when Kim insulted Biden’s intelligence.
+                  While the exact reason for Trump’s IQ obsession is difficult to nail down, people who know him suspect
+                  it stems in part from his desire to project an image of success and competence, despite scattered
+                  business failings and repeated allegations from critics that he’s incompetent. Trump is also known for
+                  being thin-skinned. He often fires back at anyone who criticizes him with a barrage of insults, while
+                  simultaneously building himself up.
+                </p>
+                <p>“I don’t think you have to put him on the couch to see that someone who has such a consistent need to
+                  build himself up and belittle everyone else must have some problems with self-esteem,” said Trump
+                  biographer Gwenda Blair, who wrote a book about the Trump family. “It’s a lifelong theme for him.”
+                  “Part of it comes from his insecurities about not being perceived as intelligent,” a former White
+                  House official added.
+                  In recent years, Trump has accused Rep. Maxine Waters (D-Calif.), actor Robert De Niro, Washington
+                  Post staffers, former President George W. Bush, comedian Jon Stewart, Republican strategist Rick
+                  Wilson, MSNBC host Mika Brzezinski, and Rick Perry, now his Energy secretary, of having low IQs. He
+                  once suggested he’d like to compare his IQ to that of then-Secretary of State Rex Tillerson, adding,
+                  “And I can tell you who is going to win.” He privately mocked former Attorney General Jeff Sessions’
+                  intelligence, according to a former White House official. All the while, Trump has claimed his Cabinet
+                  has the highest IQ of any assembled in history.
+                  “Sorry losers and haters, but my I.Q. is one of the highest -and you all know it! Please don't feel so
+                  stupid or insecure, it's not your fault,” Trump tweeted in 2013.
+                  Just last week, the president again referred to himself as an “extremely stable genius,” and he has
+                  spent years insisting he has a high IQ score, though he has never revealed the exact number. When a
+                  Twitter critic challenged him in 2013 to prove his high IQ, Trump responded simply, “The highest,
+                  asshole!”
+                </p>
+              </div>
+              <a href="https://www.politico.com/story/2019/05/30/donald-trump-iq-intelligence-1347149"
+                class="source">Continue reading</p></a>
+            </div>
           </div>
-<a href="https://www.politico.com/story/2019/05/30/donald-trump-iq-intelligence-1347149" class="source">Continue reading</p></a>   
-        </div></div></div>
+        </div>
       </div>
     </div>
-  
-  
-  <!-- Modal Seven -->
-<div id="modal7" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-seven"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        I look very much forward to showing my financials, because they are huge. 
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Financial Success</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>TIME, April 2011</p>
-          <div class="article"><p>Donald Trump teases an upcoming presidential campaign in an interview for Time magazine, which states that he’s discussing making an announcement in late May. His ideas outlined in Time include placing a 25% tariff on all Chinese imports, forcing South Korea to “pay us for protection” from North Korea, and threatening to remove military aid for OPEC members unless they made oil cheaper. He promotes himself as anti-gay and pro-life, and, of course, says that he can make America great again.          
-            He also says he’s excited to show his taxes, which he has yet to do 10 years later at the time of this writing. While the Time piece might be the first acknowledgement that Trump is planning to run for the presidency, his campaigning really began when he became the mascot of the Obama birther conspiracy.
-            Donald Trump, 64, a golden mist of hair wafting perfectly across his forehead, holds up fresh evidence of his greatness. “This thing just came out,” Trump says, waving a 2012 Republican primary poll from the website Newsmax. “This is Trump.”
-            <p>He points to a bar graph showing the 57% of voters who support his unannounced campaign for President. Then he points below…. The poll doesn’t really mean much, having been culled from a self-selected group of Internet surfers who clicked banner ads displaying Trump’s face….
-              “Nobody can do the job that I can do… I can make this country great again. This country is not great. This country is a laughingstock for the rest of the world.” He has been repeating that sound bite for weeks, as if the nation were just another run-down co-op in need of redevelopment. But his play is not new….
-            </p><p>“NBC wants to renew me for three seasons,” Trump explains. “I’ve told them, I’m sorry. At this moment, I can’t think about that because I have a big decision to make.” He has been chatting up the new head of the Republican National Committee, Reince Priebus, and speaking regularly to Christopher Ruddy, the proprietor of Newsmax and a force in conservative circles, who happens to be a member of Trump’s opulent Palm Beach, Fla., club Mar-a-Lago. Trump has also been reconnoitering with Kellyanne Conway, a Republican pollster who lives in a Trump building in Manhattan. There are plans in the works for a sit-down with pro-life leaders. “He can win,” claims Conway, bucking the nearly unanimous view among the Beltway elite, explaining that “2012 is an aspiration election. When you think aspiration and upward mobility, you think Donald Trump.” ….</p>
-          <p>“He’s a working-class hero,” argues [Roger] Stone, who is no longer employed by Trump but is soliciting contributions for the cause at DraftTrump2012.com. “Blacks and Hispanics and lower-class whites like his lifestyle.”</p><p>Meanwhile, one of Trump’s senior executives, Michael Cohen, has been leading another Trump 2012 charge, booking interviews and appearances for Trump and financing a website called ShouldTrumpRun.com. Cohen works closely with Stewart Rahr, a billionaire philanthropist known in the society pages as Stewie Rah Rah, the No. 1 King of All Fun, who once handed out a business card that looked like a $1 billion bill, emblazoned with a picture of Rahr, Trump and former President Bill Clinton on a golf outing. “I believe the country needs leadership,” says Rahr, who also lives in a Trump building, belongs to Trump’s country clubs and has promised to spend whatever he legally can to elect him…</p>
+
+
+    <!-- Modal Seven -->
+    <div id="modal7" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-seven"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                I look very much forward to showing my financials, because they are huge.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Financial Success</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>TIME, April 2011</p>
+              <div class="article">
+                <p>Donald Trump teases an upcoming presidential campaign in an interview for Time magazine, which states
+                  that he’s discussing making an announcement in late May. His ideas outlined in Time include placing a
+                  25% tariff on all Chinese imports, forcing South Korea to “pay us for protection” from North Korea,
+                  and threatening to remove military aid for OPEC members unless they made oil cheaper. He promotes
+                  himself as anti-gay and pro-life, and, of course, says that he can make America great again.
+                  He also says he’s excited to show his taxes, which he has yet to do 10 years later at the time of this
+                  writing. While the Time piece might be the first acknowledgement that Trump is planning to run for the
+                  presidency, his campaigning really began when he became the mascot of the Obama birther conspiracy.
+                  Donald Trump, 64, a golden mist of hair wafting perfectly across his forehead, holds up fresh evidence
+                  of his greatness. “This thing just came out,” Trump says, waving a 2012 Republican primary poll from
+                  the website Newsmax. “This is Trump.”
+                <p>He points to a bar graph showing the 57% of voters who support his unannounced campaign for
+                  President. Then he points below…. The poll doesn’t really mean much, having been culled from a
+                  self-selected group of Internet surfers who clicked banner ads displaying Trump’s face….
+                  “Nobody can do the job that I can do… I can make this country great again. This country is not great.
+                  This country is a laughingstock for the rest of the world.” He has been repeating that sound bite for
+                  weeks, as if the nation were just another run-down co-op in need of redevelopment. But his play is not
+                  new….
+                </p>
+                <p>“NBC wants to renew me for three seasons,” Trump explains. “I’ve told them, I’m sorry. At this
+                  moment, I can’t think about that because I have a big decision to make.” He has been chatting up the
+                  new head of the Republican National Committee, Reince Priebus, and speaking regularly to Christopher
+                  Ruddy, the proprietor of Newsmax and a force in conservative circles, who happens to be a member of
+                  Trump’s opulent Palm Beach, Fla., club Mar-a-Lago. Trump has also been reconnoitering with Kellyanne
+                  Conway, a Republican pollster who lives in a Trump building in Manhattan. There are plans in the works
+                  for a sit-down with pro-life leaders. “He can win,” claims Conway, bucking the nearly unanimous view
+                  among the Beltway elite, explaining that “2012 is an aspiration election. When you think aspiration
+                  and upward mobility, you think Donald Trump.” ….</p>
+                <p>“He’s a working-class hero,” argues [Roger] Stone, who is no longer employed by Trump but is
+                  soliciting contributions for the cause at DraftTrump2012.com. “Blacks and Hispanics and lower-class
+                  whites like his lifestyle.”</p>
+                <p>Meanwhile, one of Trump’s senior executives, Michael Cohen, has been leading another Trump 2012
+                  charge, booking interviews and appearances for Trump and financing a website called
+                  ShouldTrumpRun.com. Cohen works closely with Stewart Rahr, a billionaire philanthropist known in the
+                  society pages as Stewie Rah Rah, the No. 1 King of All Fun, who once handed out a business card that
+                  looked like a $1 billion bill, emblazoned with a picture of Rahr, Trump and former President Bill
+                  Clinton on a golf outing. “I believe the country needs leadership,” says Rahr, who also lives in a
+                  Trump building, belongs to Trump’s country clubs and has promised to spend whatever he legally can to
+                  elect him…</p>
+              </div>
+              <a href="https://trumpfile.org/trump-campaign-2011-time/" class="source">Continue reading</p></a>
+            </div>
           </div>
-<a href="https://trumpfile.org/trump-campaign-2011-time/" class="source">Continue reading</p></a>   
-        </div></div></div>
+        </div>
       </div>
     </div>
 
     <!-- Modal Eight -->
-<div id="modal8" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-eight"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be expected.
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Romance</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>Trump: How To Get Rich, 2004</p>
-          <div class="article"><p>Cast your mind back to when all you knew about Donald Trump was that he was a turbo-tanned, wealthy businessman who did the bit Alan Sugar does on the US version of The Apprentice. Oh, life was so much simpler then.
-            When it comes to women, much of what has tripped out of Trump's mouth hasn't exactly been great. But now, despite his derogatory views on women and minorities, Trump is hoping to secure his second term as the 45th President of the United states of America. So, just in case you weren't feeling concerned enough about the potential outcome of Tuesday's US presidential election, here are 25 real things Trump has actually said about women.</p>
-          <p>1. "I'm automatically attracted to beautiful women — I just start kissing them. It's like a magnet. Just kiss. I don't even wait. When you're a star, they let you do it. You can do anything. Grab 'em by the pussy. You can do anything." (Secret video recording, 2005)</p>
-          <p>2. "Look at that face. Would anyone vote for that? Can you imagine that, the face of our next next president? I mean, she's a woman, and I'm not supposed to say bad things, but really, folks, come on. Are we serious?" (About Carly Fiorina, his one-time Republican rival, 2015)</p>
-          <p>3. "We’re getting your husbands back to work. Everybody wants it." (Aimed at women attending a campaign rally in Michigan, 2020)</p>
-          <p>4. "I like kids. I mean, I won’t do anything to take care of them. I’ll supply funds and she’ll take care of the kids. It’s not like I’m gonna be walking the kids down Central Park." (An interview with Howard Stern, 2005)</p>
-          <p>5. "[Arianna Huffington] is unattractive both inside and out. I fully understand why her former husband left her for a man - he made a good decision." (Twitter, 2012)</p>
+    <div id="modal8" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-eight"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be
+                expected.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Romance</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>Trump: How To Get Rich, 2004</p>
+              <div class="article">
+                <p>Cast your mind back to when all you knew about Donald Trump was that he was a turbo-tanned, wealthy
+                  businessman who did the bit Alan Sugar does on the US version of The Apprentice. Oh, life was so much
+                  simpler then.
+                  When it comes to women, much of what has tripped out of Trump's mouth hasn't exactly been great. But
+                  now, despite his derogatory views on women and minorities, Trump is hoping to secure his second term
+                  as the 45th President of the United states of America. So, just in case you weren't feeling concerned
+                  enough about the potential outcome of Tuesday's US presidential election, here are 25 real things
+                  Trump has actually said about women.</p>
+                <p>1. "I'm automatically attracted to beautiful women — I just start kissing them. It's like a magnet.
+                  Just kiss. I don't even wait. When you're a star, they let you do it. You can do anything. Grab 'em by
+                  the pussy. You can do anything." (Secret video recording, 2005)</p>
+                <p>2. "Look at that face. Would anyone vote for that? Can you imagine that, the face of our next next
+                  president? I mean, she's a woman, and I'm not supposed to say bad things, but really, folks, come on.
+                  Are we serious?" (About Carly Fiorina, his one-time Republican rival, 2015)</p>
+                <p>3. "We’re getting your husbands back to work. Everybody wants it." (Aimed at women attending a
+                  campaign rally in Michigan, 2020)</p>
+                <p>4. "I like kids. I mean, I won’t do anything to take care of them. I’ll supply funds and she’ll take
+                  care of the kids. It’s not like I’m gonna be walking the kids down Central Park." (An interview with
+                  Howard Stern, 2005)</p>
+                <p>5. "[Arianna Huffington] is unattractive both inside and out. I fully understand why her former
+                  husband left her for a man - he made a good decision." (Twitter, 2012)</p>
+              </div>
+              <a href="https://www.cosmopolitan.com/uk/reports/a42442/donald-trump-women-sexist-quotes/"
+                class="source">Continue reading</p></a>
+            </div>
           </div>
-<a href="https://www.cosmopolitan.com/uk/reports/a42442/donald-trump-women-sexist-quotes/" class="source">Continue reading</p></a>   
-        </div></div></div>
+        </div>
       </div>
     </div>
-  
+
     <!-- Modal Nine -->
-<div id="modal9" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <a href="#"><div class="close-one">
-    &times;</div></a>
-    <div class="modal-grid">
-      <div class="modal-col story-nine"></div>
-        <div class="modal-col">
-          
-    <div class="story-content">
-      <h2 class="modal-sayings">
-        She does have a very nice figure... If [Ivanka] weren't my daughter, perhaps I'd be dating her.
-      </h2>
-      <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Family...</p>
-          <p class="modal-date"><span style="font-weight: 800;">When: </span>The View, 2006</p>
-          <div class="article"><p>When Donald Trump was watching his 16-year-old daughter Ivanka host the 1997 Miss Teen USA pageant, he turned to the then-Miss Universe and asked: “Don’t you think my daughter’s hot? She’s hot, right?”</p>
-            <p>That anecdote, told to the New York Times by Brook Antoinette Mahealani Lee, appears to be the first recorded incident of the Republican presidential candidate and reality TV star making comments about his daughter’s body which those present have deemed inappropriate.</p>
-            <p>In the almost 20 years since, Mr Trump has called his eldest daughter “voluptuous”. He’s said it’s OK to describe her as “a piece of ass”, though she is a senior executive in his business empire. And he’s said that, if she wasn’t his daughter, “perhaps [he’d] be dating her”.</p>
-            <p>Mr Trump’s history of denigrating women has come to fore of the US presidential debate, after audio tapes emerged of him boasting about “grabbing them by the p***y” from a 2005 recording of Access Hollywood.</p>
-            <p>Here’s a recap of all the way he has spoken about one of the most important women in his life, Ivanka Trump.</p>
-            <p><strong>On The Howard Stern Show, 2003:</strong><br>Trump bragged about his then-22-year-old daughter’s body, saying: “You know who’s one of the great beauties of the world, according to everybody? And I helped create her. Ivanka.
-             “My daughter, Ivanka. She’s 6 feet tall, she’s got the best body. She made a lot money as a model—a tremendous amount.”</p>
-            <p><strong>New York magazine interview, December 2004:</strong><br>“Let me tell you one thing: Ivanka is a great, great beauty. Every guy in the country wants to go out with my daughter. But she’s got a boyfriend.”</p>
-            <p></p>
-            <p></p>
-            <p></p>
+    <div id="modal9" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <a href="#">
+          <div class="close-one">
+            &times;</div>
+        </a>
+        <div class="modal-grid">
+          <div class="modal-col story-nine"></div>
+          <div class="modal-col">
+
+            <div class="story-content">
+              <h2 class="modal-sayings">
+                She does have a very nice figure... If [Ivanka] weren't my daughter, perhaps I'd be dating her.
+              </h2>
+              <p class="modal-topic"><span style="font-weight: 800;">Topic: </span>Family...</p>
+              <p class="modal-date"><span style="font-weight: 800;">When: </span>The View, 2006</p>
+              <div class="article">
+                <p>When Donald Trump was watching his 16-year-old daughter Ivanka host the 1997 Miss Teen USA pageant,
+                  he turned to the then-Miss Universe and asked: “Don’t you think my daughter’s hot? She’s hot, right?”
+                </p>
+                <p>That anecdote, told to the New York Times by Brook Antoinette Mahealani Lee, appears to be the first
+                  recorded incident of the Republican presidential candidate and reality TV star making comments about
+                  his daughter’s body which those present have deemed inappropriate.</p>
+                <p>In the almost 20 years since, Mr Trump has called his eldest daughter “voluptuous”. He’s said it’s OK
+                  to describe her as “a piece of ass”, though she is a senior executive in his business empire. And he’s
+                  said that, if she wasn’t his daughter, “perhaps [he’d] be dating her”.</p>
+                <p>Mr Trump’s history of denigrating women has come to fore of the US presidential debate, after audio
+                  tapes emerged of him boasting about “grabbing them by the p***y” from a 2005 recording of Access
+                  Hollywood.</p>
+                <p>Here’s a recap of all the way he has spoken about one of the most important women in his life, Ivanka
+                  Trump.</p>
+                <p><strong>On The Howard Stern Show, 2003:</strong><br>Trump bragged about his then-22-year-old
+                  daughter’s body, saying: “You know who’s one of the great beauties of the world, according to
+                  everybody? And I helped create her. Ivanka.
+                  “My daughter, Ivanka. She’s 6 feet tall, she’s got the best body. She made a lot money as a model—a
+                  tremendous amount.”</p>
+                <p><strong>New York magazine interview, December 2004:</strong><br>“Let me tell you one thing: Ivanka is
+                  a great, great beauty. Every guy in the country wants to go out with my daughter. But she’s got a
+                  boyfriend.”</p>
+                <p></p>
+                <p></p>
+                <p></p>
+              </div>
+              <a href="https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-ivanka-trump-creepiest-most-unsettling-comments-a-roundup-a7353876.html"
+                class="source">Continue reading</p></a>
+            </div>
           </div>
-<a href="https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-ivanka-trump-creepiest-most-unsettling-comments-a-roundup-a7353876.html" class="source">Continue reading</p></a>   
-        </div></div></div>
+        </div>
       </div>
     </div>
-    
-
-
-      
-      </div>
 
 
 
-<div class="footer"><p>
-  cry baby.. cry...</p>
-</div></div>
+
+  </div>
 
 
-<!-- Modal One 
+
+  <div class="footer">
+    <p>
+      cry baby.. cry...</p>
+  </div>
+  </div>
+
+
+  <!-- Modal One 
 <script>
   // Get the modal
 var modal = document.getElementById("modalOne");
@@ -470,8 +839,8 @@ window.onclick = function(event) {
   }
 }
 </script>-->
-<!-- Modal Two -->
-<!--<script>
+  <!-- Modal Two -->
+  <!--<script>
   // Get the modal
 var modal = document.getElementById("modalTwo");
 
@@ -503,7 +872,8 @@ window.onclick = function(event) {
 
 
 
-      <!-- end flex grid area -->
-    </div>
-  </body>
+  <!-- end flex grid area -->
+  </div>
+</body>
+
 </html>
