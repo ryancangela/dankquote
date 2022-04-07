@@ -161,7 +161,7 @@ h2.modal-sayings:after {
 }
 
 .quote-one {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_three-drk.jpg");
+  background-image: url("../images/drk/donald_three-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -169,7 +169,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-two {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_two-drk.jpg");
+  background-image: url("../images/drk/donald_two-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
@@ -177,7 +177,7 @@ h2.modal-sayings:after {
   background-blend-mode: multiply;
 }
 .quote-three {
-  background-image: url("https://ryancangela.com/wp-content/uploads/2021/12/donald_one-drk.jpg");
+  background-image: url("../images/drk/donald_one-drk.jpg");
   background-position: center;
   background-size: cover;
   filter: grayscale(1);
